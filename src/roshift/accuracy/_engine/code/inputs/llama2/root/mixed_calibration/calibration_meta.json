@@ -1,0 +1,75 @@
+{
+  "model_tokenizer": "/repro/models/NousResearch-Llama-2-7b-hf",
+  "seed": 20260812,
+  "shuffle_buffer": 10000,
+  "calibration_shape": [
+    32,
+    4096
+  ],
+  "selection_shape": [
+    32,
+    512
+  ],
+  "calibration_tokens": 131072,
+  "selection_tokens": 16384,
+  "construction": "Each domain is independently shuffled and concatenated with EOS. Calibration uses 4096-token blocks; z-selection uses disjoint 512-token continuations from subsequent records.",
+  "domains": [
+    {
+      "name": "general_c4",
+      "dataset": "allenai/c4",
+      "config": "en",
+      "split": "train",
+      "blocks": 16,
+      "ratio": 0.5,
+      "calibration_tokens": 65536,
+      "selection_tokens": 8192,
+      "calibration_records_consumed": 118,
+      "selection_records_consumed": 17,
+      "calibration_sha256": "ad9ae1b545cf3114c33afcce1bfc3470312de412d620c353c360c2096cbef627",
+      "selection_sha256": "d5b1cc51182b820293b26774c1bee713c04b8a04681d2715bb33e9b275f7ceb7"
+    },
+    {
+      "name": "instruction_alpaca",
+      "dataset": "tatsu-lab/alpaca",
+      "config": null,
+      "split": "train",
+      "blocks": 6,
+      "ratio": 0.1875,
+      "calibration_tokens": 24576,
+      "selection_tokens": 3072,
+      "calibration_records_consumed": 272,
+      "selection_records_consumed": 33,
+      "calibration_sha256": "e6bff7ce5f1b962e8807172b1175297a58709f57d58b8cb69269da18f311bd88",
+      "selection_sha256": "09f4f42aba3cd8a3b300899b616e8c01d764889aa7924eee017dcc0e12c5f083"
+    },
+    {
+      "name": "math_metamathqa",
+      "dataset": "meta-math/MetaMathQA",
+      "config": null,
+      "split": "train",
+      "blocks": 5,
+      "ratio": 0.15625,
+      "calibration_tokens": 20480,
+      "selection_tokens": 2560,
+      "calibration_records_consumed": 80,
+      "selection_records_consumed": 9,
+      "calibration_sha256": "1397ffea71c06931955262dfb21a502cc79dd1b693f15dff629e92940f336164",
+      "selection_sha256": "c3e4b240c1572d8fde8a97727360621b4ae6f46bef4bc17ec0d2403a45c16f36"
+    },
+    {
+      "name": "code_codealpaca",
+      "dataset": "sahil2801/CodeAlpaca-20k",
+      "config": null,
+      "split": "train",
+      "blocks": 5,
+      "ratio": 0.15625,
+      "calibration_tokens": 20480,
+      "selection_tokens": 2560,
+      "calibration_records_consumed": 185,
+      "selection_records_consumed": 23,
+      "calibration_sha256": "c31ddd469504a895005507cd4c2c70e188c675a7d29d07c30356469cea83ad78",
+      "selection_sha256": "8793cf471999c607baca5c9d1caf44850f6fcc6343099552b3b21c3373ab46ae"
+    }
+  ],
+  "created_at": "2026-08-24 19:30:44"
+}

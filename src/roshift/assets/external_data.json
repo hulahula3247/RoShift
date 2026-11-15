@@ -1,0 +1,606 @@
+{
+  "schema": 1,
+  "revisions": {
+    "allenai/c4": "1588ec454efa1a09f29cd18ddd04fe05fc8653a2",
+    "tatsu-lab/alpaca": "dce01c9b08f87459cf36a430d809084718273017",
+    "meta-math/MetaMathQA": "aa4f34d3d2d3231299b5b03d9b3e5a20da45aa18",
+    "sahil2801/CodeAlpaca-20k": "152bb5e9a29651266b018106053980070a0521a1",
+    "Salesforce/wikitext": "b08601e04326c79dfdd32d625aee71d232d685c3",
+    "google-research-datasets/mbpp": "4bb6404fdc6cacfda99d4ac4205087b89d32030c"
+  },
+  "files": {
+    "accuracy/_engine/artifacts/teal/llama31/input_ids.pt": {
+      "bytes": 230967,
+      "file_sha256": "017ddbc9f0ab24946bec68421f0edb2603e48027091c2efcfd487b1d15ace36c",
+      "content": {
+        "shape": [
+          10,
+          2048
+        ],
+        "dtype": "torch.int64",
+        "sha256": "960d6491ad09cbe7eed3c5038e9bf2df74350926ebb708e0d8711c9ba8d1cbe4"
+      }
+    },
+    "accuracy/_engine/artifacts/teal/qwen25/input_ids.pt": {
+      "bytes": 230967,
+      "file_sha256": "c1e547e4da116944a0137e020f007141f76470b35a1f7d1375ec5f376e6a7f3b",
+      "content": {
+        "shape": [
+          10,
+          2048
+        ],
+        "dtype": "torch.int64",
+        "sha256": "60db9757223dc824eafbc81e2803ed80b0b0bb892f1bb59166cc99f424240e7f"
+      }
+    },
+    "accuracy/_engine/artifacts/teal/qwen3/input_ids.pt": {
+      "bytes": 230967,
+      "file_sha256": "c1e547e4da116944a0137e020f007141f76470b35a1f7d1375ec5f376e6a7f3b",
+      "content": {
+        "shape": [
+          10,
+          2048
+        ],
+        "dtype": "torch.int64",
+        "sha256": "60db9757223dc824eafbc81e2803ed80b0b0bb892f1bb59166cc99f424240e7f"
+      }
+    },
+    "accuracy/_engine/code/inputs/llama2/evalset/input_ids.bin": {
+      "bytes": 65536,
+      "file_sha256": "28d8f35b1107339b01b3ecdcd10113ea2dcf508e4b9b7e6fd476f123a5948dda",
+      "content": {
+        "sha256": "28d8f35b1107339b01b3ecdcd10113ea2dcf508e4b9b7e6fd476f123a5948dda"
+      }
+    },
+    "accuracy/_engine/code/inputs/llama2/heldout/heldout_tokens.pt": {
+      "bytes": 1707110,
+      "file_sha256": "073be623e356e3ab2ed5e32911fd5d6a6a34ff05e7217f293c619c12d4f4f185",
+      "content": {
+        "ppl_input_ids": {
+          "shape": [
+            32,
+            4096
+          ],
+          "dtype": "torch.int64",
+          "sha256": "8c5461014461334fd2f8856480f8f71779e92a7bbd5039784c080e9aca1941ac"
+        },
+        "ppl_sequence_domain_ids": {
+          "shape": [
+            32
+          ],
+          "dtype": "torch.int16",
+          "sha256": "5ef5f433b5739b024ba954289a5ef37d4c43e2aee4f584630c5e6e6aec4d2020"
+        },
+        "ppl_domain_names": [
+          "general_c4",
+          "instruction_alpaca",
+          "math_metamathqa",
+          "code_codealpaca"
+        ],
+        "lmhead_tune_input_ids": {
+          "shape": [
+            80,
+            512
+          ],
+          "dtype": "torch.int64",
+          "sha256": "8a809b79969d2dd8db3bc35b1631da1997be8d00664c8bbd6544760d76c33ef9"
+        },
+        "lmhead_validation_input_ids": {
+          "shape": [
+            80,
+            512
+          ],
+          "dtype": "torch.int64",
+          "sha256": "5f91b8fad7c3be4dbf3c347ce961e2d2929e4e31c74334777f017e9bd3bb23d3"
+        },
+        "lmhead_sequence_domain_ids": {
+          "shape": [
+            80
+          ],
+          "dtype": "torch.int16",
+          "sha256": "287c05dc61ed1223443ea23daf4ae56cfb48b13610c6c68ed853eea0e549e789"
+        },
+        "lmhead_domain_names": [
+          "general_c4",
+          "instruction_alpaca",
+          "math_metamathqa",
+          "code_codealpaca",
+          "code_mbpp"
+        ]
+      }
+    },
+    "accuracy/_engine/code/inputs/llama2/root/mixed_calibration/input_ids.pt": {
+      "bytes": 1050167,
+      "file_sha256": "cc7978ce69f3d3e581d69f10f901479caeb458eabfbf4b8086eb7e078f4ae765",
+      "content": {
+        "shape": [
+          32,
+          4096
+        ],
+        "dtype": "torch.int64",
+        "sha256": "b41e2985e2f44ede11ba0d41adbdeb796c07edf74a8bb2f56274e0bab4ccf7b3"
+      }
+    },
+    "accuracy/_engine/code/inputs/llama2/root/mixed_calibration/selection_input_ids.pt": {
+      "bytes": 132733,
+      "file_sha256": "50a36d8871775a29933353da0eb2e47ff6200b57eb023a951da3ad65fd70d9cd",
+      "content": {
+        "shape": [
+          32,
+          512
+        ],
+        "dtype": "torch.int64",
+        "sha256": "86f3db33482110e938d5bd9bafe82bb17581d0f6021f6699098db978d7414b02"
+      }
+    },
+    "accuracy/_engine/code/inputs/llama31/evalset/input_ids.bin": {
+      "bytes": 65536,
+      "file_sha256": "57f50a3751e99f16a0037cee0c616b3ff00497b1351055a604d3eacd509bcbf4",
+      "content": {
+        "sha256": "57f50a3751e99f16a0037cee0c616b3ff00497b1351055a604d3eacd509bcbf4"
+      }
+    },
+    "accuracy/_engine/code/inputs/llama31/heldout/heldout_tokens.pt": {
+      "bytes": 1707110,
+      "file_sha256": "076c77faa732345e3a4eb66accddc0c5ab1e06379a96c77e41df1ce9f8b5859b",
+      "content": {
+        "ppl_input_ids": {
+          "shape": [
+            32,
+            4096
+          ],
+          "dtype": "torch.int64",
+          "sha256": "082fab4145382edbd2756a9a0567b843fe6a00912f3cec36b8ec0f18d3e4b3b2"
+        },
+        "ppl_sequence_domain_ids": {
+          "shape": [
+            32
+          ],
+          "dtype": "torch.int16",
+          "sha256": "5ef5f433b5739b024ba954289a5ef37d4c43e2aee4f584630c5e6e6aec4d2020"
+        },
+        "ppl_domain_names": [
+          "general_c4",
+          "instruction_alpaca",
+          "math_metamathqa",
+          "code_codealpaca"
+        ],
+        "lmhead_tune_input_ids": {
+          "shape": [
+            80,
+            512
+          ],
+          "dtype": "torch.int64",
+          "sha256": "d64a6e76caf8625142e4c6cb8c976cf05bab847647a2fb9d0b5e2342cbc261fe"
+        },
+        "lmhead_validation_input_ids": {
+          "shape": [
+            80,
+            512
+          ],
+          "dtype": "torch.int64",
+          "sha256": "343a84b1b85e1acb10498dc294f5466d2b21572f822928732e3ae5bd8fc909d3"
+        },
+        "lmhead_sequence_domain_ids": {
+          "shape": [
+            80
+          ],
+          "dtype": "torch.int16",
+          "sha256": "287c05dc61ed1223443ea23daf4ae56cfb48b13610c6c68ed853eea0e549e789"
+        },
+        "lmhead_domain_names": [
+          "general_c4",
+          "instruction_alpaca",
+          "math_metamathqa",
+          "code_codealpaca",
+          "code_mbpp"
+        ]
+      }
+    },
+    "accuracy/_engine/code/inputs/llama31/root/mixed_calibration/input_ids.pt": {
+      "bytes": 1050167,
+      "file_sha256": "5ee4b5f22c948e7307e48219e369be29066259256e121018732b48fd81cad3e7",
+      "content": {
+        "shape": [
+          32,
+          4096
+        ],
+        "dtype": "torch.int64",
+        "sha256": "e3de9287724710e9ba7e59acd17ce8143d45d05be85e43d92718b6a2cf8be76a"
+      }
+    },
+    "accuracy/_engine/code/inputs/llama31/root/mixed_calibration/selection_input_ids.pt": {
+      "bytes": 132733,
+      "file_sha256": "44c27a76c262f9f3d7468043a1ff3dccb1984d60c0f70e2f9ee6197eea09e81b",
+      "content": {
+        "shape": [
+          32,
+          512
+        ],
+        "dtype": "torch.int64",
+        "sha256": "700033d047a52e540a02267c0d427916c2c9335adde7c4b8e247babee3ebdeb2"
+      }
+    },
+    "accuracy/_engine/code/inputs/mistral/evalset/input_ids.bin": {
+      "bytes": 65536,
+      "file_sha256": "02d44bd43a5979123aac6785cdcf3ef6c9559d435905b5e87a44b61f1fb23ebb",
+      "content": {
+        "sha256": "02d44bd43a5979123aac6785cdcf3ef6c9559d435905b5e87a44b61f1fb23ebb"
+      }
+    },
+    "accuracy/_engine/code/inputs/mistral/heldout/heldout_tokens.pt": {
+      "bytes": 1707110,
+      "file_sha256": "b7704217f1d779f076961de163cf58babdfc7b4f1977c87fc0bb0a07107903cb",
+      "content": {
+        "ppl_input_ids": {
+          "shape": [
+            32,
+            4096
+          ],
+          "dtype": "torch.int64",
+          "sha256": "ed3faa7f1b1dd7a444565fac6a40585a0087d409bca2c49f7eb677bbdecfa010"
+        },
+        "ppl_sequence_domain_ids": {
+          "shape": [
+            32
+          ],
+          "dtype": "torch.int16",
+          "sha256": "5ef5f433b5739b024ba954289a5ef37d4c43e2aee4f584630c5e6e6aec4d2020"
+        },
+        "ppl_domain_names": [
+          "general_c4",
+          "instruction_alpaca",
+          "math_metamathqa",
+          "code_codealpaca"
+        ],
+        "lmhead_tune_input_ids": {
+          "shape": [
+            80,
+            512
+          ],
+          "dtype": "torch.int64",
+          "sha256": "d62acc10444a5cf13afb996b7ad4bd6258074debf25f18b99e40593285158f7c"
+        },
+        "lmhead_validation_input_ids": {
+          "shape": [
+            80,
+            512
+          ],
+          "dtype": "torch.int64",
+          "sha256": "3f47223ec8316e6bc7ec2569b73c7468e2d3661d1e43df5f74fe5ac5cc3bffe6"
+        },
+        "lmhead_sequence_domain_ids": {
+          "shape": [
+            80
+          ],
+          "dtype": "torch.int16",
+          "sha256": "287c05dc61ed1223443ea23daf4ae56cfb48b13610c6c68ed853eea0e549e789"
+        },
+        "lmhead_domain_names": [
+          "general_c4",
+          "instruction_alpaca",
+          "math_metamathqa",
+          "code_codealpaca",
+          "code_mbpp"
+        ]
+      }
+    },
+    "accuracy/_engine/code/inputs/mistral/root/mixed_calibration/input_ids.pt": {
+      "bytes": 1050167,
+      "file_sha256": "c5bdb87ddde4725f94350e1d493a42a6e255b523dd676e0b001e6660fac60567",
+      "content": {
+        "shape": [
+          32,
+          4096
+        ],
+        "dtype": "torch.int64",
+        "sha256": "8861dc35163ea7b964c0d1794c9b44920bbacd0bb87786f1a6ab3601f4525fd3"
+      }
+    },
+    "accuracy/_engine/code/inputs/mistral/root/mixed_calibration/selection_input_ids.pt": {
+      "bytes": 132733,
+      "file_sha256": "d4204d8a9ace92f5fd9135a8d846b2b87e381fb88a513567be75136c37ac8f3e",
+      "content": {
+        "shape": [
+          32,
+          512
+        ],
+        "dtype": "torch.int64",
+        "sha256": "977859768367a1b77c7b278cdf504d41ad702add9d418a0188d839ba6a7fc3a2"
+      }
+    },
+    "accuracy/_engine/code/inputs/qwen25/evalset/input_ids.bin": {
+      "bytes": 65536,
+      "file_sha256": "9bc88b1586761a3bc0d29bfdf98b74a1408e58659679bdde625ae620356363dc",
+      "content": {
+        "sha256": "9bc88b1586761a3bc0d29bfdf98b74a1408e58659679bdde625ae620356363dc"
+      }
+    },
+    "accuracy/_engine/code/inputs/qwen25/heldout/heldout_tokens.pt": {
+      "bytes": 1707110,
+      "file_sha256": "01d4dd35f3c4ef98ec100a2ab5911f202244ed9e285c7117c329a5d935605fac",
+      "content": {
+        "ppl_input_ids": {
+          "shape": [
+            32,
+            4096
+          ],
+          "dtype": "torch.int64",
+          "sha256": "bfe24c2844eaf98c6b605d6de95f1de49d0dc5aea0028f5151cb7a9db3981078"
+        },
+        "ppl_sequence_domain_ids": {
+          "shape": [
+            32
+          ],
+          "dtype": "torch.int16",
+          "sha256": "5ef5f433b5739b024ba954289a5ef37d4c43e2aee4f584630c5e6e6aec4d2020"
+        },
+        "ppl_domain_names": [
+          "general_c4",
+          "instruction_alpaca",
+          "math_metamathqa",
+          "code_codealpaca"
+        ],
+        "lmhead_tune_input_ids": {
+          "shape": [
+            80,
+            512
+          ],
+          "dtype": "torch.int64",
+          "sha256": "7f347ae9b7e3521b4c07df5d53f7df706491f8bc529fe00909786055d7b6832d"
+        },
+        "lmhead_validation_input_ids": {
+          "shape": [
+            80,
+            512
+          ],
+          "dtype": "torch.int64",
+          "sha256": "b60cb7bf6a9fd8b37fd32c40d97c6c9dae1af1f7c4cc75b59bc15a579153f32c"
+        },
+        "lmhead_sequence_domain_ids": {
+          "shape": [
+            80
+          ],
+          "dtype": "torch.int16",
+          "sha256": "287c05dc61ed1223443ea23daf4ae56cfb48b13610c6c68ed853eea0e549e789"
+        },
+        "lmhead_domain_names": [
+          "general_c4",
+          "instruction_alpaca",
+          "math_metamathqa",
+          "code_codealpaca",
+          "code_mbpp"
+        ]
+      }
+    },
+    "accuracy/_engine/code/inputs/qwen25/root/mixed_calibration/input_ids.pt": {
+      "bytes": 1050167,
+      "file_sha256": "0184598b5054547caf199065a7b1c7d23edf01129b3a823f000ab020d10d733f",
+      "content": {
+        "shape": [
+          32,
+          4096
+        ],
+        "dtype": "torch.int64",
+        "sha256": "a8bd261d081c2e8745450cdc7c5d8b130c650c3c161caf283e6869b5a70af9c4"
+      }
+    },
+    "accuracy/_engine/code/inputs/qwen25/root/mixed_calibration/selection_input_ids.pt": {
+      "bytes": 132733,
+      "file_sha256": "c545dd9aeee3d5f253711c5ab41d7c73fa578e4c55f5bcd3c4862641ab4b3dda",
+      "content": {
+        "shape": [
+          32,
+          512
+        ],
+        "dtype": "torch.int64",
+        "sha256": "be2499d6e47dfed85b991210d9f33742005f625e09b5df45a6120852980b1b8c"
+      }
+    },
+    "accuracy/_engine/code/inputs/qwen3/root/mixed_calibration/input_ids.pt": {
+      "bytes": 1050167,
+      "file_sha256": "0184598b5054547caf199065a7b1c7d23edf01129b3a823f000ab020d10d733f",
+      "content": {
+        "shape": [
+          32,
+          4096
+        ],
+        "dtype": "torch.int64",
+        "sha256": "a8bd261d081c2e8745450cdc7c5d8b130c650c3c161caf283e6869b5a70af9c4"
+      }
+    },
+    "accuracy/_engine/code/inputs/qwen3/root/mixed_calibration/selection_input_ids.pt": {
+      "bytes": 132733,
+      "file_sha256": "c545dd9aeee3d5f253711c5ab41d7c73fa578e4c55f5bcd3c4862641ab4b3dda",
+      "content": {
+        "shape": [
+          32,
+          512
+        ],
+        "dtype": "torch.int64",
+        "sha256": "be2499d6e47dfed85b991210d9f33742005f625e09b5df45a6120852980b1b8c"
+      }
+    },
+    "assets/calibration/llama2/input_ids.pt": {
+      "bytes": 1050167,
+      "file_sha256": "cc7978ce69f3d3e581d69f10f901479caeb458eabfbf4b8086eb7e078f4ae765",
+      "content": {
+        "shape": [
+          32,
+          4096
+        ],
+        "dtype": "torch.int64",
+        "sha256": "b41e2985e2f44ede11ba0d41adbdeb796c07edf74a8bb2f56274e0bab4ccf7b3"
+      }
+    },
+    "assets/calibration/llama2/selection_input_ids.pt": {
+      "bytes": 132733,
+      "file_sha256": "50a36d8871775a29933353da0eb2e47ff6200b57eb023a951da3ad65fd70d9cd",
+      "content": {
+        "shape": [
+          32,
+          512
+        ],
+        "dtype": "torch.int64",
+        "sha256": "86f3db33482110e938d5bd9bafe82bb17581d0f6021f6699098db978d7414b02"
+      }
+    },
+    "assets/calibration/llama31/input_ids.pt": {
+      "bytes": 1050167,
+      "file_sha256": "5ee4b5f22c948e7307e48219e369be29066259256e121018732b48fd81cad3e7",
+      "content": {
+        "shape": [
+          32,
+          4096
+        ],
+        "dtype": "torch.int64",
+        "sha256": "e3de9287724710e9ba7e59acd17ce8143d45d05be85e43d92718b6a2cf8be76a"
+      }
+    },
+    "assets/calibration/llama31/selection_input_ids.pt": {
+      "bytes": 132733,
+      "file_sha256": "44c27a76c262f9f3d7468043a1ff3dccb1984d60c0f70e2f9ee6197eea09e81b",
+      "content": {
+        "shape": [
+          32,
+          512
+        ],
+        "dtype": "torch.int64",
+        "sha256": "700033d047a52e540a02267c0d427916c2c9335adde7c4b8e247babee3ebdeb2"
+      }
+    },
+    "assets/calibration/mistral/input_ids.pt": {
+      "bytes": 1050167,
+      "file_sha256": "c5bdb87ddde4725f94350e1d493a42a6e255b523dd676e0b001e6660fac60567",
+      "content": {
+        "shape": [
+          32,
+          4096
+        ],
+        "dtype": "torch.int64",
+        "sha256": "8861dc35163ea7b964c0d1794c9b44920bbacd0bb87786f1a6ab3601f4525fd3"
+      }
+    },
+    "assets/calibration/mistral/selection_input_ids.pt": {
+      "bytes": 132733,
+      "file_sha256": "d4204d8a9ace92f5fd9135a8d846b2b87e381fb88a513567be75136c37ac8f3e",
+      "content": {
+        "shape": [
+          32,
+          512
+        ],
+        "dtype": "torch.int64",
+        "sha256": "977859768367a1b77c7b278cdf504d41ad702add9d418a0188d839ba6a7fc3a2"
+      }
+    },
+    "assets/calibration/qwen25/input_ids.pt": {
+      "bytes": 1050167,
+      "file_sha256": "0184598b5054547caf199065a7b1c7d23edf01129b3a823f000ab020d10d733f",
+      "content": {
+        "shape": [
+          32,
+          4096
+        ],
+        "dtype": "torch.int64",
+        "sha256": "a8bd261d081c2e8745450cdc7c5d8b130c650c3c161caf283e6869b5a70af9c4"
+      }
+    },
+    "assets/calibration/qwen25/selection_input_ids.pt": {
+      "bytes": 132733,
+      "file_sha256": "c545dd9aeee3d5f253711c5ab41d7c73fa578e4c55f5bcd3c4862641ab4b3dda",
+      "content": {
+        "shape": [
+          32,
+          512
+        ],
+        "dtype": "torch.int64",
+        "sha256": "be2499d6e47dfed85b991210d9f33742005f625e09b5df45a6120852980b1b8c"
+      }
+    },
+    "assets/calibration/qwen3/input_ids.pt": {
+      "bytes": 1050167,
+      "file_sha256": "0184598b5054547caf199065a7b1c7d23edf01129b3a823f000ab020d10d733f",
+      "content": {
+        "shape": [
+          32,
+          4096
+        ],
+        "dtype": "torch.int64",
+        "sha256": "a8bd261d081c2e8745450cdc7c5d8b130c650c3c161caf283e6869b5a70af9c4"
+      }
+    },
+    "assets/calibration/qwen3/selection_input_ids.pt": {
+      "bytes": 132733,
+      "file_sha256": "c545dd9aeee3d5f253711c5ab41d7c73fa578e4c55f5bcd3c4862641ab4b3dda",
+      "content": {
+        "shape": [
+          32,
+          512
+        ],
+        "dtype": "torch.int64",
+        "sha256": "be2499d6e47dfed85b991210d9f33742005f625e09b5df45a6120852980b1b8c"
+      }
+    },
+    "assets/larosa/llama2/calibration_input_ids.pt": {
+      "bytes": 263819,
+      "file_sha256": "bfe63b7150ecf582629edf821cd810739c319177c98eb28094d9c34f6f18c47b",
+      "content": {
+        "shape": [
+          16,
+          2048
+        ],
+        "dtype": "torch.int64",
+        "sha256": "8b44d691942180cddfd55ab58d5ef47bb9d6191e67c5b6454ebf0f6cbaef8011"
+      }
+    },
+    "assets/larosa/llama31/calibration_input_ids.pt": {
+      "bytes": 263819,
+      "file_sha256": "24725c2aafee14f30dad8fe09bbab7c5fe9b4d957dd599584fe9d42dd073f938",
+      "content": {
+        "shape": [
+          16,
+          2048
+        ],
+        "dtype": "torch.int64",
+        "sha256": "050ef23faa189f9a6c0a57a4e4a51bd875081996e04f75f166256e408afe2d50"
+      }
+    },
+    "assets/larosa/mistral/calibration_input_ids.pt": {
+      "bytes": 263819,
+      "file_sha256": "583636ce6896d263e5bacc0d1676967eb9acaa784bdb80b039cbc31e528bcca0",
+      "content": {
+        "shape": [
+          16,
+          2048
+        ],
+        "dtype": "torch.int64",
+        "sha256": "197b35050b91f18778db67a9a436aae9756e418368a5b773a23d03339f9f297d"
+      }
+    },
+    "assets/larosa/qwen25/calibration_input_ids.pt": {
+      "bytes": 263819,
+      "file_sha256": "fb3a975606748a15c32b642b8d2694cac38b6725c117ce6977a648226bf9d2fb",
+      "content": {
+        "shape": [
+          16,
+          2048
+        ],
+        "dtype": "torch.int64",
+        "sha256": "87f36da4394872f166ab51e7b970337ae91f04b8e11341d418fa42bb280df3c1"
+      }
+    },
+    "assets/larosa/qwen3/calibration_input_ids.pt": {
+      "bytes": 263819,
+      "file_sha256": "fb3a975606748a15c32b642b8d2694cac38b6725c117ce6977a648226bf9d2fb",
+      "content": {
+        "shape": [
+          16,
+          2048
+        ],
+        "dtype": "torch.int64",
+        "sha256": "87f36da4394872f166ab51e7b970337ae91f04b8e11341d418fa42bb280df3c1"
+      }
+    }
+  },
+  "semantics": "Original tensor content fingerprints, not a redistribution of dataset text or token IDs."
+}

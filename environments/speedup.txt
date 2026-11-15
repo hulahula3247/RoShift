@@ -1,0 +1,11 @@
+# Use a dedicated Linux environment, CUDA 12.8 toolkit/nvcc and a C++ compiler.
+# Install torch==2.10.0 from https://download.pytorch.org/whl/cu128 separately.
+# For preparation, also install environments/accuracy.txt.
+ninja==1.13.0
+msgspec==0.21.1
+scipy==1.17.1
+tiktoken==0.13.0
+sentencepiece==0.2.1
+safetensors==0.8.0
+tokenizers==0.22.2
+numpy==2.4.3

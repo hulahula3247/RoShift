@@ -1,0 +1,79 @@
+{
+  "mmlu": {
+    "label": "MMLU",
+    "fewshot": 5,
+    "metric": "acc,none",
+    "scope": "likelihood",
+    "fallback_batch": 4
+  },
+  "boolq": {
+    "label": "BoolQ",
+    "fewshot": 0,
+    "metric": "acc,none",
+    "scope": "likelihood",
+    "fallback_batch": 8
+  },
+  "piqa": {
+    "label": "PIQA",
+    "fewshot": 0,
+    "metric": "acc_norm,none",
+    "scope": "likelihood",
+    "fallback_batch": 8
+  },
+  "arc_easy": {
+    "label": "ARC-E",
+    "fewshot": 0,
+    "metric": "acc_norm,none",
+    "scope": "likelihood",
+    "fallback_batch": 8
+  },
+  "arc_challenge": {
+    "label": "ARC-C",
+    "fewshot": 25,
+    "metric": "acc_norm,none",
+    "scope": "likelihood",
+    "fallback_batch": 4
+  },
+  "winogrande": {
+    "label": "WinoGrande",
+    "fewshot": 5,
+    "metric": "acc,none",
+    "scope": "likelihood",
+    "fallback_batch": 8
+  },
+  "commonsense_qa": {
+    "label": "CSQA",
+    "fewshot": 0,
+    "metric": "acc,none",
+    "scope": "likelihood",
+    "fallback_batch": 8
+  },
+  "mbpp": {
+    "label": "MBPP",
+    "fewshot": 3,
+    "metric": "pass_at_1,none",
+    "scope": "generation",
+    "fallback_batch": 4
+  },
+  "minerva_math500": {
+    "label": "MATH-500",
+    "fewshot": 4,
+    "metric": "math_verify,none",
+    "scope": "generation",
+    "fallback_batch": 8
+  },
+  "bbh_cot_fewshot": {
+    "label": "BBH",
+    "fewshot": 3,
+    "metric": "exact_match,get-answer",
+    "scope": "generation",
+    "fallback_batch": 8
+  },
+  "gsm8k": {
+    "label": "GSM8K",
+    "fewshot": 8,
+    "metric": "exact_match,strict-match",
+    "scope": "generation",
+    "fallback_batch": 8
+  }
+}

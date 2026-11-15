@@ -1,0 +1,7 @@
+{
+  "model": "llama2",
+  "asset_kind": "published_official",
+  "upstream_commit": "fb7373c93ac3594817c9ee64d4e08b47430a1822",
+  "published_model": "Llama-2-7B",
+  "published_files_sha256": "74a2bc1a8420d184285f84bdc3368ebe8b134f2d9c6c40426716b20d170b6be9"
+}

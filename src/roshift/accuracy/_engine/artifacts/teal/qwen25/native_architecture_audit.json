@@ -1,0 +1,73 @@
+{
+  "status": "passed",
+  "audit": "native_vs_all_input_zero_threshold",
+  "tokens": 32,
+  "finite": true,
+  "logits_exactly_equal": true,
+  "model_parameters_preserved": true,
+  "projection_shapes_and_costs": {
+    "q": {
+      "weight_shape": [
+        3584,
+        3584
+      ],
+      "bias": true,
+      "relative_q_mac_cost": 1.0
+    },
+    "k": {
+      "weight_shape": [
+        512,
+        3584
+      ],
+      "bias": true,
+      "relative_q_mac_cost": 0.14285714285714285
+    },
+    "v": {
+      "weight_shape": [
+        512,
+        3584
+      ],
+      "bias": true,
+      "relative_q_mac_cost": 0.14285714285714285
+    },
+    "o": {
+      "weight_shape": [
+        3584,
+        3584
+      ],
+      "bias": false,
+      "relative_q_mac_cost": 1.0
+    },
+    "gate": {
+      "weight_shape": [
+        18944,
+        3584
+      ],
+      "bias": false,
+      "relative_q_mac_cost": 5.285714285714286
+    },
+    "up": {
+      "weight_shape": [
+        18944,
+        3584
+      ],
+      "bias": false,
+      "relative_q_mac_cost": 5.285714285714286
+    },
+    "down": {
+      "weight_shape": [
+        3584,
+        18944
+      ],
+      "bias": false,
+      "relative_q_mac_cost": 5.285714285714286
+    }
+  },
+  "model_type": "qwen2",
+  "q_norm": "NoneType",
+  "k_norm": "NoneType",
+  "input_norm": "Qwen2RMSNorm",
+  "activation": "SiLUActivation",
+  "embedding": "Embedding",
+  "full_model_benchmark_validation": false
+}

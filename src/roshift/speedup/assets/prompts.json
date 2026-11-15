@@ -1,0 +1,101 @@
+{
+  "revisions": {
+    "Salesforce/wikitext": "b08601e04326c79dfdd32d625aee71d232d685c3",
+    "tatsu-lab/alpaca": "dce01c9b08f87459cf36a430d809084718273017",
+    "openai/gsm8k": "740312add88f781978c0658806c59bc2815b9866",
+    "allenai/openbookqa": "388097ea7776314e93a529163e0fea805b8a6454"
+  },
+  "models": {
+    "llama31": {
+      "wikitext2": {
+        "tokens": 2047,
+        "sha256": "07b41713e87f43618cc2d4be5c52174c2fed80cc0ed67433fe1f00e65f4f9eeb"
+      },
+      "alpaca": {
+        "tokens": 2047,
+        "sha256": "f5d8eaafa8bc5bdf9900a07014f45bfaa36bde811ded91bc9b25cf66fe1289cc"
+      },
+      "gsm8k": {
+        "tokens": 2047,
+        "sha256": "7ba4496870309c371e1b3296cd071558878c6b2bb8d3dead8a716fe1c43afa98"
+      },
+      "obqa": {
+        "tokens": 2047,
+        "sha256": "29f4cab20b08bda72eed844f6871210b1ecc49d4ee1d3bdb65600005354235a5"
+      }
+    },
+    "llama2": {
+      "wikitext2": {
+        "tokens": 2048,
+        "sha256": "9b0617d3131ea586d10ed94b17d973e86ca677795f2ca68572a2960b43702841"
+      },
+      "alpaca": {
+        "tokens": 2048,
+        "sha256": "52085d4d8031d655a4359bba6b0c10d54f879defdaf82937a9a4c2de9ca956d2"
+      },
+      "gsm8k": {
+        "tokens": 2048,
+        "sha256": "3428c0ad62321850b92fd5b82a531bf70612074fb71408ea12bf75ea602488ba"
+      },
+      "obqa": {
+        "tokens": 2048,
+        "sha256": "e6ae1784278d76c26f3be2537d49ceed24b59b6c45484ec1a6b28548cdf07dc6"
+      }
+    },
+    "mistral": {
+      "wikitext2": {
+        "tokens": 2048,
+        "sha256": "b351c9d4e2732f069b41ed57587010f4b84cf56c0ad082a6a34724358e5ea7a8"
+      },
+      "alpaca": {
+        "tokens": 2048,
+        "sha256": "43648ef560bb359239b1904f1bf75f3137aac749e353daf56650fd7115e6367c"
+      },
+      "gsm8k": {
+        "tokens": 2048,
+        "sha256": "004d9e0fcb8625cd45c58c2bf1d34ece5fc7b0603b63685c784d821d5d0e3a7a"
+      },
+      "obqa": {
+        "tokens": 2048,
+        "sha256": "f0b1a213e77f9ab0d94f6bb9e9ea912dafee0d749afe7f06554d415fa71bd608"
+      }
+    },
+    "qwen25": {
+      "wikitext2": {
+        "tokens": 2048,
+        "sha256": "95f76ee0dba1265248b59529c0a7358c522f05367e393b6242b10b8e17bc39af"
+      },
+      "alpaca": {
+        "tokens": 2048,
+        "sha256": "4cbd04364697bdfb6753f05903894db98f232f005056262b0abcf2958f0af6e0"
+      },
+      "gsm8k": {
+        "tokens": 2048,
+        "sha256": "907a37caed25942d2812e957e4d4dd3755794434f511789db7be7de2bfc0a9d0"
+      },
+      "obqa": {
+        "tokens": 2048,
+        "sha256": "7aa7866a1a9225efce6b232e93c921e8325dfcf891be3f01af4b99d79417cd8c"
+      }
+    },
+    "qwen3": {
+      "wikitext2": {
+        "tokens": 2048,
+        "sha256": "95f76ee0dba1265248b59529c0a7358c522f05367e393b6242b10b8e17bc39af"
+      },
+      "alpaca": {
+        "tokens": 2048,
+        "sha256": "4cbd04364697bdfb6753f05903894db98f232f005056262b0abcf2958f0af6e0"
+      },
+      "gsm8k": {
+        "tokens": 2048,
+        "sha256": "907a37caed25942d2812e957e4d4dd3755794434f511789db7be7de2bfc0a9d0"
+      },
+      "obqa": {
+        "tokens": 2048,
+        "sha256": "7aa7866a1a9225efce6b232e93c921e8325dfcf891be3f01af4b99d79417cd8c"
+      }
+    }
+  },
+  "raw_token_payloads_shipped": false
+}

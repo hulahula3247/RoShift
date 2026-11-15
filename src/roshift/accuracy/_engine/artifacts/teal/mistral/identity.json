@@ -1,0 +1,7 @@
+{
+  "model": "mistral",
+  "asset_kind": "published_official",
+  "upstream_commit": "fb7373c93ac3594817c9ee64d4e08b47430a1822",
+  "published_model": "Mistral-7B",
+  "published_files_sha256": "c43d166cfc447574b6ee9edc3547ec31401f9cd53608ee628175e7f3f2b410cd"
+}

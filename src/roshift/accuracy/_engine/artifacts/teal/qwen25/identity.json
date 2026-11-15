@@ -1,0 +1,39 @@
+{
+  "model": "qwen25",
+  "model_path": "/repro/project/models/Qwen2.5-7B",
+  "sources": {
+    "upstream_commit": "fb7373c93ac3594817c9ee64d4e08b47430a1822",
+    "files": {
+      "/repro/project/baselines/teal/utils/utils.py": "79871108adf9b17c2c39c4774e05efd20c3c95606832c04915bf3decb49efbc2",
+      "/repro/project/baselines/teal/teal/greedyopt.py": "28c20f1a0e5bf7771fcfb4f03cfecd03127761a125aa38fee9f80c2ec0b02ffd",
+      "/repro/project/baselines/teal/teal/grab_acts.py": "4065db3b3757e4017fa4cef25e89b1bc00d0f61d6906ab117c6f15f5167efbb4",
+      "/repro/project/baselines/teal/utils/data.py": "4ad467d828f5facb0305ff8938976c2ad061699393e052049222436a19789c0b",
+      "/repro/project/code/context/source_reference/analysis/teal_official_runtime_20260910.py": "8e7fdb3d9651a8400f9a7deaa452615c3a424de9aa453d53fb70816b0c629824",
+      "/repro/project/ops/teal/worker.py": "53ad15c2431a35be3a14ff8cbc17eb39284ede3a02c6b5f4d5d914ea501bd2a1",
+      "/repro/project/ops/teal/runtime.py": "eefffcd2fb8e431de3a825095fa673925dc21a86519488de2e4dfc9b4c3f08e0",
+      "/repro/project/code/analysis/runtime_token_scope.py": "16e83fb79e9b604efb78255ad2aef7b3f193392149e00e75cc1901d4d4e48266",
+      "/repro/project/code/context/evidence/accuracy_inventory_20260916/task_protocol.json": "22809f460ce30c0009d025683eebcb1339fa5f8d9362b6137bde95fd24e0f46a",
+      "/repro/project/code/tools/run_likelihood.py": "07aa6a050dcfdf5bd53ab03a0ebafbe287cedffb148e69e66a819b99d1c10f5b",
+      "/repro/project/code/analysis/experiment_timing.py": "90aa0d358681e584fb8f17db80d664053d5541b001b232a582a2508278da6102",
+      "/repro/project/code/vendor/transformers/models/qwen2/__init__.py": "7b8f6813312b5ee8c4d14565feafda81fe571f31c44b8bd5da42f09aa764da48",
+      "/repro/project/code/vendor/transformers/models/qwen2/configuration_qwen2.py": "281986fef33b2c5226389a479113eb963c8336467e76e1b8d49fd3d18ee4a882",
+      "/repro/project/code/vendor/transformers/models/qwen2/modeling_qwen2.py": "99fa98c5676604cf6ef505892b70fda5c1c4cd835971459f38d61090cccab1e4",
+      "/repro/project/code/vendor/transformers/models/qwen2/modular_qwen2.py": "474885009726189b1a4899e271c6d11a93a0f53c675f08bcef8670297e163f71",
+      "/repro/project/code/vendor/transformers/models/qwen2/tokenization_qwen2.py": "fac4e6576bfe2369731be147a4e530f262bdf32f2ac50436f96f0d8bdd2fc628",
+      "/repro/project/code/vendor/transformers/models/qwen3/__init__.py": "e4953cb8ef71d00989f988d8dfa331b5b30a4ff077f1d2c992b9c0c0bca37136",
+      "/repro/project/code/vendor/transformers/models/qwen3/configuration_qwen3.py": "49d9ccd0f29ccd977b93dba2004f84b867891b3d0509b71fd8ba3ed01054e64d",
+      "/repro/project/code/vendor/transformers/models/qwen3/modeling_qwen3.py": "fbdcfeeb1b54135ca67ba7df924da92f4b264e1252b517eea2de989289ebaeab",
+      "/repro/project/code/vendor/transformers/models/qwen3/modular_qwen3.py": "411f4357809f042214fdc480e848d9a3fdc11f62a4fd57c683a0d939eb60551e",
+      "/repro/project/code/vendor/transformers/models/gemma/__init__.py": "2c7e0e978658864858332c2fd305ac62082b71b5f550eb00303fa9b069bc3fe7",
+      "/repro/project/code/vendor/transformers/models/gemma/configuration_gemma.py": "ac4b6de5c5a977278d652ca8d392b5fe10c7e81cdfb72ac691b8e2c3198967e9",
+      "/repro/project/code/vendor/transformers/models/gemma/convert_gemma_weights_to_hf.py": "16f6109e57780a8fb1f7e13bb6ff3c98918c1357c72d1e8db84f49a15119234b",
+      "/repro/project/code/vendor/transformers/models/gemma/modeling_gemma.py": "434040c2e998483aea5cc7d48b422a56b146fbdacab00279b8fe5fc2d13cb8d0",
+      "/repro/project/code/vendor/transformers/models/gemma/modular_gemma.py": "e517f41098936661664693f559215f4102ab500276c401047d033a26fc38ca18",
+      "/repro/project/code/vendor/transformers/models/gemma/tokenization_gemma.py": "ff2481e06983015188575dc62bd2fa0e6f33ed2d01165d940efe77b80ee8d419"
+    }
+  },
+  "checkpoint_identity_sha256": "dc1d869326e999309ddf594c983a2b1fb15ca58666f6a90ddddb23c01bc9443b",
+  "calibration": "official_first300_alpaca_train_10x2048",
+  "max_greedy_sparsity": 0.65,
+  "orchestration_change": "extend unchanged greedy trajectory from legacy .55 cutoff to .65; earlier rows unchanged"
+}

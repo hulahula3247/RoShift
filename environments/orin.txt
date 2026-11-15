@@ -1,0 +1,14 @@
+# Helper packages for the Jetson Orin Python 3.10 environment.
+# Use a separate SSD venv; see docs/ORIN.md for installation.
+# Provision NVIDIA torch 2.4.0a0+3bcc3cddb5.nv24.07, Triton 3.0.0 and CUDA 12.2
+# separately; do not replace them with generic desktop/cu128 wheels.
+# PyTorch distribution metadata normalizes nv24.07 to nv24.7.
+ninja==1.13.2
+msgspec==0.21.1
+scipy==1.14.1
+tiktoken==0.12.0
+sentencepiece==0.2.1
+safetensors==0.6.2
+tokenizers==0.19.1
+numpy==1.26.4
+huggingface-hub==0.36.0

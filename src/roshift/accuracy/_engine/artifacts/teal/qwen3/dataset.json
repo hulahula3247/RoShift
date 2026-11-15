@@ -1,0 +1,19 @@
+{
+  "dataset": "tatsu-lab/alpaca",
+  "revision": "dce01c9b08f87459cf36a430d809084718273017",
+  "split": "train",
+  "sampling": "first 300; no shuffle",
+  "text_sha256": "7945b86b8de15f2029f993ac1849c114395ef4307a230da3d4dce0e9a40a8e99",
+  "shape": [
+    10,
+    2048
+  ],
+  "token_ids_sha256": "b343e97e691649e47d1de7da4f45af93f2e73162ad34f0d86f136a40ab0d8095",
+  "file_sha256": "c1e547e4da116944a0137e020f007141f76470b35a1f7d1375ec5f376e6a7f3b",
+  "tokenizer_identity": {
+    "merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+    "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+    "tokenizer_config.json": "3c04ed3ca964ea2f6b2b5faf0dc4d31aec1cb1e8b4bcf63f402d295046b422b5",
+    "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  }
+}

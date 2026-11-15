@@ -1,0 +1,46 @@
+{
+  "identity": {
+    "protocol": "paper_random16x2048_train_v1",
+    "dataset": "Salesforce/wikitext",
+    "revision": "b08601e04326c79dfdd32d625aee71d232d685c3",
+    "subset": "wikitext-2-raw-v1",
+    "split": "train",
+    "seed": 1234,
+    "tokenizer_sha256": {
+      "tokenizer.json": "11c08db21487c885d8c792180f0be237f6a261b89a46f128a6a80a3aa4bd1720",
+      "tokenizer.model": "dadfd56d766715c61d2ef780a525ab43b8e6da4de6865bda3d95fdef5e134055",
+      "tokenizer_config.json": "ddb008229511e51607002ffe28925001c4a9ca4177dc4de3a655d085cc610b99",
+      "special_tokens_map.json": "6fa06efa2785e450051989a6f8fb4416b10149ded485ddd3f127a40734f5cfd0"
+    }
+  },
+  "sampling": {
+    "starts": [
+      1848566,
+      490106,
+      31421,
+      380186,
+      2442039,
+      146490,
+      352062,
+      412811,
+      1487449,
+      993252,
+      73098,
+      129243,
+      66439,
+      1451602,
+      2719234,
+      2614231
+    ],
+    "special_tokens": "one stream with tokenizer add_special_tokens=True",
+    "algorithm": "Python random.Random(seed).sample distinct start offsets; windows may overlap",
+    "seed_origin": "recipient-declared; paper and public source do not provide a random search/PCA seed",
+    "training_tokens": 2811497,
+    "sequence_count": 16,
+    "sequence_length": 2048
+  },
+  "token_sha256": "583636ce6896d263e5bacc0d1676967eb9acaa784bdb80b039cbc31e528bcca0",
+  "text_sha256": "d1fcb0152fac532567ad18fc83f407131b30602e392b00b328faf396eb2fdcf8",
+  "selection_objective": "full causal TRAIN calibration PPL",
+  "test_or_benchmark_data_used": false
+}

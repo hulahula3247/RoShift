@@ -1,0 +1,74 @@
+{
+  "llama31": {
+    "hf_id": "meta-llama/Meta-Llama-3.1-8B",
+    "directory": "Meta-Llama-3.1-8B",
+    "model_type": "llama",
+    "layers": 32,
+    "existing_allocations": [
+      40,
+      50,
+      60
+    ],
+    "historical_q_elsewhere": [],
+    "adaptive_relative": "adaptive_dp_mixed_20260814/adaptive_dp_centers.json",
+    "evalset_bundled": true,
+    "heldout_bundled": true,
+    "calibration": "Exact saved 32x4096 + disjoint 32x512 token IDs; do not resample"
+  },
+  "llama2": {
+    "hf_id": "NousResearch/Llama-2-7b-hf",
+    "directory": "NousResearch-Llama-2-7b-hf",
+    "model_type": "llama",
+    "layers": 32,
+    "existing_allocations": [
+      40,
+      50
+    ],
+    "historical_q_elsewhere": [],
+    "adaptive_relative": "adaptive_dp_mixed_20260824/adaptive_dp_centers.json",
+    "evalset_bundled": true,
+    "heldout_bundled": true,
+    "calibration": "Exact saved 32x4096 + disjoint 32x512 token IDs; do not resample"
+  },
+  "mistral": {
+    "hf_id": "mistralai/Mistral-7B-v0.1",
+    "directory": "Mistral-7B-v0.1",
+    "model_type": "mistral",
+    "layers": 32,
+    "existing_allocations": [
+      50
+    ],
+    "historical_q_elsewhere": [],
+    "adaptive_relative": "adaptive_dp_mixed_20260818/adaptive_dp_centers.json",
+    "evalset_bundled": true,
+    "heldout_bundled": true,
+    "calibration": "Exact saved 32x4096 + disjoint 32x512 token IDs; do not resample"
+  },
+  "qwen25": {
+    "hf_id": "Qwen/Qwen2.5-7B",
+    "directory": "Qwen2.5-7B",
+    "model_type": "qwen2",
+    "layers": 28,
+    "existing_allocations": [
+      40,
+      50
+    ],
+    "historical_q_elsewhere": [],
+    "adaptive_relative": "adaptive_dp_mixed_20260902/adaptive_dp_centers.json",
+    "evalset_bundled": true,
+    "heldout_bundled": true,
+    "calibration": "Exact saved 32x4096 + disjoint 32x512 token IDs; do not resample"
+  },
+  "qwen3": {
+    "hf_id": "Qwen/Qwen3-8B-Base",
+    "directory": "Qwen3-8B-Base",
+    "model_type": "qwen3",
+    "layers": 36,
+    "existing_allocations": [],
+    "historical_q_elsewhere": [],
+    "adaptive_relative": null,
+    "evalset_bundled": false,
+    "heldout_bundled": false,
+    "calibration": "Exact saved 32x4096 + disjoint 32x512 token IDs; do not resample"
+  }
+}

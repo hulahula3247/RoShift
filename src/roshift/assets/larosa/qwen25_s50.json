@@ -1,0 +1,1743 @@
+{
+  "protocol": "larosa_mac_v1",
+  "model_target_sparsity_percent": 50,
+  "candidate": "a1_21_a3_19",
+  "alpha": [
+    1.05,
+    0.9357142857142857,
+    0.95,
+    1.1
+  ],
+  "group_order": [
+    "attn_h1",
+    "attn_h2",
+    "mlp_h1",
+    "mlp_h2"
+  ],
+  "projection_sparsity_fraction": {
+    "q": 0.525,
+    "k": 0.525,
+    "v": 0.525,
+    "o": 0.46785714285714286,
+    "gate": 0.475,
+    "up": 0.475,
+    "down": 0.55
+  },
+  "continuous_budget": {
+    "dense_total_mac": 6525288448.0,
+    "target_sparse_mac": 3262644224.0,
+    "achieved_sparse_mac": 3262644224.0,
+    "target_sparsity_fraction": 0.5,
+    "error_abs": 0.0,
+    "per_block": [
+      {
+        "layer": 0,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 14680064.0,
+        "achieved_sparse_mac": 14680064.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 0,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 101842944.0,
+        "achieved_sparse_mac": 101842944.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 1,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 14680064.0,
+        "achieved_sparse_mac": 14680064.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 1,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 101842944.0,
+        "achieved_sparse_mac": 101842944.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 2,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 14680064.0,
+        "achieved_sparse_mac": 14680064.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 2,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 101842944.0,
+        "achieved_sparse_mac": 101842944.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 3,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 14680064.0,
+        "achieved_sparse_mac": 14680064.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 3,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 101842944.0,
+        "achieved_sparse_mac": 101842944.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 4,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 14680064.0,
+        "achieved_sparse_mac": 14680064.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 4,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 101842944.0,
+        "achieved_sparse_mac": 101842944.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 5,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 14680064.0,
+        "achieved_sparse_mac": 14680064.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 5,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 101842944.0,
+        "achieved_sparse_mac": 101842944.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 6,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 14680064.0,
+        "achieved_sparse_mac": 14680064.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 6,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 101842944.0,
+        "achieved_sparse_mac": 101842944.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 7,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 14680064.0,
+        "achieved_sparse_mac": 14680064.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 7,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 101842944.0,
+        "achieved_sparse_mac": 101842944.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 8,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 14680064.0,
+        "achieved_sparse_mac": 14680064.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 8,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 101842944.0,
+        "achieved_sparse_mac": 101842944.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 9,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 14680064.0,
+        "achieved_sparse_mac": 14680064.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 9,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 101842944.0,
+        "achieved_sparse_mac": 101842944.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 10,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 14680064.0,
+        "achieved_sparse_mac": 14680064.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 10,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 101842944.0,
+        "achieved_sparse_mac": 101842944.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 11,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 14680064.0,
+        "achieved_sparse_mac": 14680064.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 11,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 101842944.0,
+        "achieved_sparse_mac": 101842944.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 12,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 14680064.0,
+        "achieved_sparse_mac": 14680064.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 12,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 101842944.0,
+        "achieved_sparse_mac": 101842944.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 13,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 14680064.0,
+        "achieved_sparse_mac": 14680064.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 13,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 101842944.0,
+        "achieved_sparse_mac": 101842944.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 14,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 14680064.0,
+        "achieved_sparse_mac": 14680064.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 14,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 101842944.0,
+        "achieved_sparse_mac": 101842944.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 15,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 14680064.0,
+        "achieved_sparse_mac": 14680064.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 15,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 101842944.0,
+        "achieved_sparse_mac": 101842944.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 16,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 14680064.0,
+        "achieved_sparse_mac": 14680064.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 16,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 101842944.0,
+        "achieved_sparse_mac": 101842944.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 17,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 14680064.0,
+        "achieved_sparse_mac": 14680064.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 17,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 101842944.0,
+        "achieved_sparse_mac": 101842944.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 18,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 14680064.0,
+        "achieved_sparse_mac": 14680064.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 18,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 101842944.0,
+        "achieved_sparse_mac": 101842944.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 19,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 14680064.0,
+        "achieved_sparse_mac": 14680064.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 19,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 101842944.0,
+        "achieved_sparse_mac": 101842944.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 20,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 14680064.0,
+        "achieved_sparse_mac": 14680064.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 20,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 101842944.0,
+        "achieved_sparse_mac": 101842944.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 21,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 14680064.0,
+        "achieved_sparse_mac": 14680064.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 21,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 101842944.0,
+        "achieved_sparse_mac": 101842944.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 22,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 14680064.0,
+        "achieved_sparse_mac": 14680064.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 22,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 101842944.0,
+        "achieved_sparse_mac": 101842944.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 23,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 14680064.0,
+        "achieved_sparse_mac": 14680064.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 23,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 101842944.0,
+        "achieved_sparse_mac": 101842944.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 24,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 14680064.0,
+        "achieved_sparse_mac": 14680064.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 24,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 101842944.0,
+        "achieved_sparse_mac": 101842944.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 25,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 14680064.0,
+        "achieved_sparse_mac": 14680064.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 25,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 101842944.0,
+        "achieved_sparse_mac": 101842944.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 26,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 14680064.0,
+        "achieved_sparse_mac": 14680064.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 26,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 101842944.0,
+        "achieved_sparse_mac": 101842944.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 27,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 14680064.0,
+        "achieved_sparse_mac": 14680064.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 27,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 101842944.0,
+        "achieved_sparse_mac": 101842944.0,
+        "target_sparsity_fraction": 0.5,
+        "error_abs": 0.0
+      }
+    ]
+  }
+}

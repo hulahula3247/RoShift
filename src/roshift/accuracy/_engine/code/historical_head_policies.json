@@ -1,0 +1,34 @@
+{
+  "llama31_s50": {
+    "model": "llama31",
+    "target": 50,
+    "historical_policy": {
+      "name": "mixed_strict",
+      "first_dim": 512,
+      "second_dim": 1536,
+      "z1": 6.975,
+      "z2": 3.85
+    },
+    "validated_for_rebuilt_Q": false
+  },
+  "qwen25_s40": {
+    "model": "qwen25",
+    "target": 40,
+    "historical_policy": {
+      "name": "dense"
+    },
+    "validated_for_rebuilt_Q": false
+  },
+  "qwen25_s50": {
+    "model": "qwen25",
+    "target": 50,
+    "historical_policy": {
+      "name": "model_strict",
+      "first_dim": 512,
+      "second_dim": 1536,
+      "z1": 7.75,
+      "z2": 4.025
+    },
+    "validated_for_rebuilt_Q": false
+  }
+}

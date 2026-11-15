@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "roshift-reproduction"
+version = "0.1.0rc6+orin2"
+description = "RoShift: training-free activation sparsity for LLM decoding"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+license = {file = "LICENSE"}
+
+[project.optional-dependencies]
+download = ["huggingface-hub>=0.28"]
+
+[project.scripts]
+roshift = "roshift.dispatch:main"
+
+[tool.setuptools]
+license-files = ["LICENSE", "third_party/*.txt", "third_party/*.md", "third_party/TEAL_LICENSE", "third_party/license_sources.json"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["roshift*"]
+exclude = ["roshift.accuracy._engine*", "roshift.speedup._engine*", "roshift.speedup_orin._engine*"]
+namespaces = false
+
+[tool.setuptools.package-data]
+roshift = ["assets/**/*.json", "assets/**/*.pt"]
+"roshift.accuracy" = ["_engine/**/*", "tasks/*.yaml", "*.json"]
+"roshift.speedup" = ["_engine/**/*", "assets/*.json"]
+"roshift.speedup_orin" = ["_engine/**/*", "assets/*.json", "*.json"]

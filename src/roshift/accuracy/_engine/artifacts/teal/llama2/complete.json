@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "layers": 32,
+  "target": 0.9036269430051805,
+  "calibration": {
+    "origin": "published official TEAL assets",
+    "underlying_token_ids_independently_verified": false
+  }
+}

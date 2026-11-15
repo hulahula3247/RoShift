@@ -1,0 +1,30 @@
+{
+  "selected_at_sparsity": 50,
+  "configs": {
+    "qkv": {
+      "chunk": 256,
+      "threads": 256
+    },
+    "o": {
+      "chunk": 128,
+      "threads": 64,
+      "baseline": true
+    },
+    "gate": {
+      "chunk": 512,
+      "threads": 128,
+      "baseline": true
+    },
+    "up": {
+      "chunk": 128,
+      "threads": 512
+    },
+    "down": {
+      "chunk": 256,
+      "threads": 128,
+      "baseline": true
+    }
+  },
+  "never_retune_other_sparsities": true,
+  "real_measurement_sha256": "74170a623fabf6518d4449826df2b35b4e58db951e97c020498e1c5c719e24a2"
+}

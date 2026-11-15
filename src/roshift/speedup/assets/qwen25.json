@@ -1,0 +1,76 @@
+{
+  "name": "qwen25",
+  "config": {
+    "architectures": [
+      "Qwen2ForCausalLM"
+    ],
+    "attention_dropout": 0.0,
+    "bos_token_id": 151643,
+    "eos_token_id": 151643,
+    "hidden_act": "silu",
+    "hidden_size": 3584,
+    "initializer_range": 0.02,
+    "intermediate_size": 18944,
+    "max_position_embeddings": 131072,
+    "max_window_layers": 28,
+    "model_type": "qwen2",
+    "num_attention_heads": 28,
+    "num_hidden_layers": 28,
+    "num_key_value_heads": 4,
+    "rms_norm_eps": 1e-06,
+    "rope_theta": 1000000.0,
+    "sliding_window": 131072,
+    "tie_word_embeddings": false,
+    "torch_dtype": "bfloat16",
+    "transformers_version": "4.40.1",
+    "use_cache": true,
+    "use_mrope": false,
+    "use_sliding_window": false,
+    "vocab_size": 152064
+  },
+  "dim": 3584,
+  "inter": 18944,
+  "layers": 28,
+  "head_dim": 128,
+  "attention_dim": 3584,
+  "kv_dim": 512,
+  "qkv_dim": 4608,
+  "vocab": 152064,
+  "head_policy": {
+    "first_dim": 512,
+    "second_dim": 1536,
+    "z1": 7.75,
+    "z2": 4.025
+  },
+  "geometry": {
+    "selected_at_sparsity": 50,
+    "configs": {
+      "qkv": {
+        "chunk": 128,
+        "threads": 256,
+        "baseline": true
+      },
+      "o": {
+        "chunk": 128,
+        "threads": 64,
+        "baseline": true
+      },
+      "gate": {
+        "chunk": 512,
+        "threads": 128,
+        "baseline": true
+      },
+      "up": {
+        "chunk": 128,
+        "threads": 256,
+        "baseline": true
+      },
+      "down": {
+        "chunk": 512,
+        "threads": 512
+      }
+    },
+    "never_retune_other_sparsities": true,
+    "real_measurement_sha256": "2ae072de61eb49387e03b4187c68597fe84c583eb21fc6b4cd15cec0b5c6414f"
+  }
+}

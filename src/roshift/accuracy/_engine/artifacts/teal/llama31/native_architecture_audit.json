@@ -1,0 +1,73 @@
+{
+  "status": "passed",
+  "audit": "native_vs_all_input_zero_threshold",
+  "tokens": 32,
+  "finite": true,
+  "logits_exactly_equal": true,
+  "model_parameters_preserved": true,
+  "projection_shapes_and_costs": {
+    "q": {
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "bias": false,
+      "relative_q_mac_cost": 1.0
+    },
+    "k": {
+      "weight_shape": [
+        1024,
+        4096
+      ],
+      "bias": false,
+      "relative_q_mac_cost": 0.25
+    },
+    "v": {
+      "weight_shape": [
+        1024,
+        4096
+      ],
+      "bias": false,
+      "relative_q_mac_cost": 0.25
+    },
+    "o": {
+      "weight_shape": [
+        4096,
+        4096
+      ],
+      "bias": false,
+      "relative_q_mac_cost": 1.0
+    },
+    "gate": {
+      "weight_shape": [
+        14336,
+        4096
+      ],
+      "bias": false,
+      "relative_q_mac_cost": 3.5
+    },
+    "up": {
+      "weight_shape": [
+        14336,
+        4096
+      ],
+      "bias": false,
+      "relative_q_mac_cost": 3.5
+    },
+    "down": {
+      "weight_shape": [
+        4096,
+        14336
+      ],
+      "bias": false,
+      "relative_q_mac_cost": 3.5
+    }
+  },
+  "model_type": "llama",
+  "q_norm": "NoneType",
+  "k_norm": "NoneType",
+  "input_norm": "LlamaRMSNorm",
+  "activation": "SiLUActivation",
+  "embedding": "Embedding",
+  "full_model_benchmark_validation": false
+}

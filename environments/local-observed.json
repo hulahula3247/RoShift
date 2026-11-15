@@ -1,0 +1,13 @@
+{
+  "python": "3.12.3",
+  "packages": {
+    "torch": "2.10.0",
+    "transformers": "5.13.0.dev0",
+    "triton": "3.6.0",
+    "numpy": "2.4.3",
+    "safetensors": "0.8.0",
+    "huggingface-hub": "1.20.1",
+    "lm-eval": "0.4.11",
+    "datasets": "4.6.1"
+  }
+}

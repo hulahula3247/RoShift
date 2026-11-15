@@ -1,0 +1,1268 @@
+[
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/ours/config.py",
+    "original_sha256": "202e33ab02e51b53b56fd94af6708efaf008765a62544e2b1c14c27eaa6b9cd7",
+    "staged_sha256": "ae531ee75706083f6306ea77e225dbf28d2dfadfe66e41f6aa04b932ae55ad46",
+    "final_sha256": "ae531ee75706083f6306ea77e225dbf28d2dfadfe66e41f6aa04b932ae55ad46"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/ours/loader.py",
+    "original_sha256": "468666dfa6b446a33ed85ef7f8c17476830c228f93e05fc197da71aed16647ec",
+    "staged_sha256": "ec8bc627a0b01fbb625539fcfb2a205571f02a448b66a6baa1c2a13cbe87ad0d",
+    "final_sha256": "ec8bc627a0b01fbb625539fcfb2a205571f02a448b66a6baa1c2a13cbe87ad0d"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/ours/runtime.py",
+    "original_sha256": "27dc1bb3ad21d928f5a204a7a56a9416b68f3343a43225eb613bab4556c969be",
+    "staged_sha256": "ee1178d628bf920a0e59e01afbeda87cfd2e4728009f13fac3c4a111a91f4338",
+    "final_sha256": "ee1178d628bf920a0e59e01afbeda87cfd2e4728009f13fac3c4a111a91f4338"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/ours/sidecar.py",
+    "original_sha256": "576be3e7230e47466ad1061e369898e9c847cb7f62185e78d775af4d8f0a0ec2",
+    "staged_sha256": "27cddf02fa3f11c1fb3d4421d23a1f18289ced31b5ee42daae00d8fa517cfc47",
+    "final_sha256": "27cddf02fa3f11c1fb3d4421d23a1f18289ced31b5ee42daae00d8fa517cfc47"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/ours/__init__.py",
+    "original_sha256": "6e515dc74785720f57fcf2b2fd60873cc7463f9425a6e9d963a4532692126708",
+    "staged_sha256": "ffcab87052a78270bd97ab09ae81967df1e0c499aeb50d881ba44bdf36fd9354",
+    "final_sha256": "ffcab87052a78270bd97ab09ae81967df1e0c499aeb50d881ba44bdf36fd9354"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/ours/kernels/block_sparse.py",
+    "original_sha256": "0a9eaf68eb8675f1fede68daa233faa32222c35c80055ae838a259148be00d03",
+    "staged_sha256": "f58e48331386dc09d99a20b67b1378ac7f36ff7c4ffe63ae2d103812c8642d3f",
+    "final_sha256": "f58e48331386dc09d99a20b67b1378ac7f36ff7c4ffe63ae2d103812c8642d3f"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/ours/kernels/block_sparse_b128.py",
+    "original_sha256": "2da276d8c77867232f3babb35916da83572b593822acc710497976e8873c63f3",
+    "staged_sha256": "c55387e1fc9856a38e595ccee1b16ee4fd58edb8307ec9989df6b4127eeadd44",
+    "final_sha256": "c55387e1fc9856a38e595ccee1b16ee4fd58edb8307ec9989df6b4127eeadd44"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/ours/kernels/block_sparse_b256.py",
+    "original_sha256": "3980c198c552db8d0afa3260288fd0064dfc38f83ba1348abda863ce3827c8e1",
+    "staged_sha256": "6e23682dc9166503eabd63263ff8c82a38a24b85c089b9f3ce0d0e3845d4c179",
+    "final_sha256": "6e23682dc9166503eabd63263ff8c82a38a24b85c089b9f3ce0d0e3845d4c179"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/ours/kernels/dynamic.py",
+    "original_sha256": "8295ecc47418022208ea3a459c9674c6091902e3144901b1acea258c531cf7bd",
+    "staged_sha256": "bc662e69c95764e717ecf52e35ce66f42fb8f7f6cdb007a997af6b0129c6e53c",
+    "final_sha256": "bc662e69c95764e717ecf52e35ce66f42fb8f7f6cdb007a997af6b0129c6e53c"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/ours/kernels/extensions.py",
+    "original_sha256": "b9afb08801951b97ff3b70d7f04d366f56e9be7344221f5a8138849b0e06c625",
+    "staged_sha256": "0e69c19ee6775cd0bb5e6e4d4500ea642af9d71723e355fe223a74deb6bcf248",
+    "final_sha256": "0e69c19ee6775cd0bb5e6e4d4500ea642af9d71723e355fe223a74deb6bcf248"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/ours/kernels/extensions_b128.py",
+    "original_sha256": "273c46c650a41633f2f0b10017bde929dff9844f83fc07ee8f44261113de79e6",
+    "staged_sha256": "4a2d433f5ce76bdf32f970ecce79e0c5c123ef1974e8c6e303e43e95b88b21d7",
+    "final_sha256": "4a2d433f5ce76bdf32f970ecce79e0c5c123ef1974e8c6e303e43e95b88b21d7"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/ours/kernels/extensions_b256.py",
+    "original_sha256": "40bb247b8fe104c09fa3b7231e33aff2e3c58f55a2ab57c2fa1ce80f20315764",
+    "staged_sha256": "9f82e49c4179f8b4c17bfa75ff968d8f5f299076e1642d57b14ddcc640db7c2b",
+    "final_sha256": "9f82e49c4179f8b4c17bfa75ff968d8f5f299076e1642d57b14ddcc640db7c2b"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/ours/kernels/join_rms.py",
+    "original_sha256": "988191b2ecafa15fa7ec95f526a954ae0842abc7da55bd841d4b3b7b7138800a",
+    "staged_sha256": "616d1bc43da91e5f11ea84ea485e3c6f683e330618ccdd867b92ab63877c9b37",
+    "final_sha256": "616d1bc43da91e5f11ea84ea485e3c6f683e330618ccdd867b92ab63877c9b37"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/ours/kernels/lm_head.py",
+    "original_sha256": "716981ce0733e331e3d5feaf31a023875ca6fc649739f99df914bfe967e633ce",
+    "staged_sha256": "81353f37fa488a9f7c57202a7e2f68bc18c665281fc6f6a010c2b0291a1b2b79",
+    "final_sha256": "81353f37fa488a9f7c57202a7e2f68bc18c665281fc6f6a010c2b0291a1b2b79"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/ours/kernels/transition.py",
+    "original_sha256": "0e5eb3635132ecd25599aea58264a051d09241c38e3cce9b667e9509197d40dc",
+    "staged_sha256": "05e194958f3463551590337eebc66ec2ee6e2ef5533f65e016040d50d9355cbe",
+    "final_sha256": "05e194958f3463551590337eebc66ec2ee6e2ef5533f65e016040d50d9355cbe"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/ours/kernels/__init__.py",
+    "original_sha256": "2f36a7eb309b9fc854f5fa47e8b85980d9b6582413028a64a2b1423ee9730868",
+    "staged_sha256": "b07bdb9536d051ee85d2a8fc7683d0219ecb905e94ebe52932439c2f34cca098",
+    "final_sha256": "b07bdb9536d051ee85d2a8fc7683d0219ecb905e94ebe52932439c2f34cca098"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/ours/kernels/csrc/block_sparse_b128_gemv.cu",
+    "original_sha256": "2299bbcf1ed3f13b983150e9e0f4f917e31bb4f5abba8f2c821f6ca6f41abf2a",
+    "staged_sha256": "e81b382be990f3638898cbb45793e5319642cac926aa52b6e194dadc8a32f831",
+    "final_sha256": "e81b382be990f3638898cbb45793e5319642cac926aa52b6e194dadc8a32f831"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/ours/kernels/csrc/block_sparse_gemv.cu",
+    "original_sha256": "4efa9b98b1b694a1f278e450490309b94fb99c8ffa45a943fcb788ffd59be4bc",
+    "staged_sha256": "86c51848d50435df43d86b1996189202d16dd08558af7c1a15a3cbb480e15628",
+    "final_sha256": "86c51848d50435df43d86b1996189202d16dd08558af7c1a15a3cbb480e15628"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/ours/kernels/csrc/dynamic_cutoff_gemv.cu",
+    "original_sha256": "3a155c32bcebc7a9e7def89791b2d5d941b7e2d785e09e7abeb0925e26471803",
+    "staged_sha256": "25ccad16823da9de2ec83f2248cc7a474f28b17ceb63191a6558a1813d48fe0b",
+    "final_sha256": "25ccad16823da9de2ec83f2248cc7a474f28b17ceb63191a6558a1813d48fe0b"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/ours/kernels/csrc/join_rms.cu",
+    "original_sha256": "d0175e1eed3e96bab5203cfbf437c49e9bbcd6e9f7b9bff42b5b78de649a7cb3",
+    "staged_sha256": "b99d2e5005e56b5f232c073c7d552f9cc1c1dd152dcda25d9db315425ab045bf",
+    "final_sha256": "b99d2e5005e56b5f232c073c7d552f9cc1c1dd152dcda25d9db315425ab045bf"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/ours/kernels/csrc/lm_head.cu",
+    "original_sha256": "a56e0370591cc194ff8e4d8350b7c2c1a33167777c22cf2d6deb7a9ee29acd30",
+    "staged_sha256": "ba01395145ae7db6152bdef433309a2a174447ad0f06932a742609e8efa3318c",
+    "final_sha256": "ba01395145ae7db6152bdef433309a2a174447ad0f06932a742609e8efa3318c"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/kernels/compile_wrapper.py",
+    "original_sha256": "42c734176ddd63c9e3d0fa1d47df6b48b553887e2a17694bd86ba21415d6d307",
+    "staged_sha256": "5c5999fac12a9caf8ce8e2064ee1b716b78b44e8be1f6b25635a5ac6d8b679ea",
+    "final_sha256": "5c5999fac12a9caf8ce8e2064ee1b716b78b44e8be1f6b25635a5ac6d8b679ea"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/kernels/kernel_utils.py",
+    "original_sha256": "1ef77ecc854a0bc10c083938c72f51412c7318f06b1520860855d8e43e767fcf",
+    "staged_sha256": "6213a9df70e4485b26e406ae14a82bbcf939ea9b731c60f8df6c94611c8d6ab0",
+    "final_sha256": "6213a9df70e4485b26e406ae14a82bbcf939ea9b731c60f8df6c94611c8d6ab0"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/kernels/sparse_gemv.py",
+    "original_sha256": "ce2e7f9054e5b279e9efb475cdbdb8c07565493b8d6dac19413067a71e633b9c",
+    "staged_sha256": "f1c3c2eac3a493ab867d564230cb6f02a4d2718bf7afd6b4ee8aa10e8c8f4020",
+    "final_sha256": "f1c3c2eac3a493ab867d564230cb6f02a4d2718bf7afd6b4ee8aa10e8c8f4020"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/kernels/__init__.py",
+    "original_sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+    "staged_sha256": "f08153d16a9490d994a25d5a341ff8acfc405deddabd0d2134ef9af9d46acd54",
+    "final_sha256": "f08153d16a9490d994a25d5a341ff8acfc405deddabd0d2134ef9af9d46acd54"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/utils/data.py",
+    "original_sha256": "c13ffcc2a8d54e3626377f98535e0b585d4f3467df33666623849c1c657fc5e1",
+    "staged_sha256": "003e4d0e26ce279d456d7210fa171d978e847425fcdbf8e1cb678baa46813474",
+    "final_sha256": "003e4d0e26ce279d456d7210fa171d978e847425fcdbf8e1cb678baa46813474"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/utils/eval_ppl.py",
+    "original_sha256": "7b25643ffca26a0b25cdff5fba9afafe1dc8f9465d4c89d934d7df7f34172c7b",
+    "staged_sha256": "be211e038f6851121824de0713934222a7896d1e0df3a860d7f3760fc1074d2e",
+    "final_sha256": "be211e038f6851121824de0713934222a7896d1e0df3a860d7f3760fc1074d2e"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/utils/utils.py",
+    "original_sha256": "c69a7f50057ffbcd0060db6dd3528043f6ce06cbeda2ec35284820e2b6b6045a",
+    "staged_sha256": "007e177f95cee3638c893dcd04d0c71fd307514535f467421fdf1c1ace5280b5",
+    "final_sha256": "007e177f95cee3638c893dcd04d0c71fd307514535f467421fdf1c1ace5280b5"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/utils/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "staged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "final_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/gpt-fast/model.py",
+    "original_sha256": "3f2c3ecb554b71faee74df60a53e2dbd925c7de044e609826392dbcd66080a4d",
+    "staged_sha256": "eaaf8afc1b56fcf669e8e0b82a414012f12bb38484ec833756b6dbeba343edce",
+    "final_sha256": "eaaf8afc1b56fcf669e8e0b82a414012f12bb38484ec833756b6dbeba343edce"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/gpt-fast/generate.py",
+    "original_sha256": "5aea70402fb90a47ec5e65f819b3478f8e5d14841fa971044ca99cd2834888fb",
+    "staged_sha256": "bf48ea1179626e18b7059e83f6c19983b656e7d5b6ab8ac692a40b476a045a27",
+    "final_sha256": "bf48ea1179626e18b7059e83f6c19983b656e7d5b6ab8ac692a40b476a045a27"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/gpt-fast/tokenizer.py",
+    "original_sha256": "7ac49c30e61eede95a215ceabf966a7e3d7f0f724b5ca2d268d2db7c44c2a8c4",
+    "staged_sha256": "e6f44bf1fa9c26a162a90ea4a62fb78a4b46a2371f159e9f632626cad2213e52",
+    "final_sha256": "e6f44bf1fa9c26a162a90ea4a62fb78a4b46a2371f159e9f632626cad2213e52"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/gpt-fast/LICENSE",
+    "original_sha256": "9782ccaa2f6ca42b4a6995fabc86734526389ef5532bd24f63cbdefac05885c3",
+    "staged_sha256": "c069ffa5ca5a65a875e40531ae7b8bfbf1f67ccc6bd3c726146cbef2747f56bb",
+    "final_sha256": "c069ffa5ca5a65a875e40531ae7b8bfbf1f67ccc6bd3c726146cbef2747f56bb"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/runtime_source/scripts/benchmark_ours.py",
+    "original_sha256": "07a614694be42895e0519812df0614ae3b045f0bb413e50f93864e4da3f0fb0b",
+    "staged_sha256": "93d5bc2660a0814df64f953032962aa1130f9b417f3b27d02735321d616ab32b",
+    "final_sha256": "92fc80c3f80495268f398398187248c5b1e6e97af4d64a73137b7977c701d5e0"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/adaptive_transition.py",
+    "original_sha256": "56858d368e11244179f33280baf1e96d00ef1347683f38d49dc35fe2daff9f91",
+    "staged_sha256": "c7c810dd8df257d220bd68bc32e1c2d0183222385c7b8821f4e1fb65481fa0dc",
+    "final_sha256": "c7c810dd8df257d220bd68bc32e1c2d0183222385c7b8821f4e1fb65481fa0dc"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/transition_lifetime.py",
+    "original_sha256": "19c498df16445048a3e86abffa8d1196d2d8b340b5c2072bc3493b8fa0e2e03f",
+    "staged_sha256": "463928123cddea129ad383c2e31ea24917fbd91e69eac4245a7cd3e2b6ff7df9",
+    "final_sha256": "463928123cddea129ad383c2e31ea24917fbd91e69eac4245a7cd3e2b6ff7df9"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/block_sparse_b128_gemv.cu",
+    "original_sha256": "b61edb7ad7b50a7182bd9543fcbaecaa09b5b76ffdc0e77280f73aedb4fc16a6",
+    "staged_sha256": "99c2d4bc59f6f527344292ebeed1e81376e3dae71137854acf09d091868bc8a6",
+    "final_sha256": "99c2d4bc59f6f527344292ebeed1e81376e3dae71137854acf09d091868bc8a6"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/qwen_runtime.py",
+    "original_sha256": "30a97891a6b42741935eb2fc757c0bb2289c463186eb389ac1e9f6e037b0753a",
+    "staged_sha256": "afdc0fad730de1adc8a79b63b5a407506216ed9ea28981e758324f257ab7181d",
+    "final_sha256": "afdc0fad730de1adc8a79b63b5a407506216ed9ea28981e758324f257ab7181d"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/worker.py",
+    "original_sha256": "6e1dc8be2b381623e711a533f5fe806623ffa8352a997075620a5867f3d1000d",
+    "staged_sha256": "ca4c4e51dcfe213e687f0237292556a48ae502df4880849fe706157e40c2b80c",
+    "final_sha256": "4dad9b8a43291c5c471980cc951e27722d6cc8fc409ad80dd576581b3ab00fa4"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/calibrate.py",
+    "original_sha256": "da9eed3dd1e7ba2c66a9b232b5f3c2b885bf0866af6efc732d09088619eb29e8",
+    "staged_sha256": "05da9c4b90bf8cc06b64534a58a4d9bc29d5efbb2033e8538d1487c4ede2a6f8",
+    "final_sha256": "b742193a322a716723eb100a10ab4a99bab505a5c4837a8c708bed9572ddda45"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama31/calibrate_centers.py",
+    "original_sha256": "019fa24ed7ee4837b8d2bb0c9b02dcc6e42ffc014b4bb495c55e34fb72c2c57d",
+    "staged_sha256": "255ea32de81088d053edbe4db744c6b9cfc4a2d3349db6ee69606520b02b0f07",
+    "final_sha256": "f01108106d0458dc02c765f1be120c2592d789281cc729812f85c9f5407743e3"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/ours/config.py",
+    "original_sha256": "202e33ab02e51b53b56fd94af6708efaf008765a62544e2b1c14c27eaa6b9cd7",
+    "staged_sha256": "ae531ee75706083f6306ea77e225dbf28d2dfadfe66e41f6aa04b932ae55ad46",
+    "final_sha256": "ae531ee75706083f6306ea77e225dbf28d2dfadfe66e41f6aa04b932ae55ad46"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/ours/loader.py",
+    "original_sha256": "468666dfa6b446a33ed85ef7f8c17476830c228f93e05fc197da71aed16647ec",
+    "staged_sha256": "ec8bc627a0b01fbb625539fcfb2a205571f02a448b66a6baa1c2a13cbe87ad0d",
+    "final_sha256": "ec8bc627a0b01fbb625539fcfb2a205571f02a448b66a6baa1c2a13cbe87ad0d"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/ours/runtime.py",
+    "original_sha256": "6807dc23a3b55c8109f67885ec68a22836181b170c9f0ed7c8eccc953199a616",
+    "staged_sha256": "a02f801014dbdd517caa069233a85f2ad7ce286e5d224332dad3bc70e8219038",
+    "final_sha256": "a02f801014dbdd517caa069233a85f2ad7ce286e5d224332dad3bc70e8219038"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/ours/sidecar.py",
+    "original_sha256": "576be3e7230e47466ad1061e369898e9c847cb7f62185e78d775af4d8f0a0ec2",
+    "staged_sha256": "27cddf02fa3f11c1fb3d4421d23a1f18289ced31b5ee42daae00d8fa517cfc47",
+    "final_sha256": "27cddf02fa3f11c1fb3d4421d23a1f18289ced31b5ee42daae00d8fa517cfc47"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/ours/__init__.py",
+    "original_sha256": "6e515dc74785720f57fcf2b2fd60873cc7463f9425a6e9d963a4532692126708",
+    "staged_sha256": "ffcab87052a78270bd97ab09ae81967df1e0c499aeb50d881ba44bdf36fd9354",
+    "final_sha256": "ffcab87052a78270bd97ab09ae81967df1e0c499aeb50d881ba44bdf36fd9354"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/ours/kernels/block_sparse.py",
+    "original_sha256": "0a9eaf68eb8675f1fede68daa233faa32222c35c80055ae838a259148be00d03",
+    "staged_sha256": "f58e48331386dc09d99a20b67b1378ac7f36ff7c4ffe63ae2d103812c8642d3f",
+    "final_sha256": "f58e48331386dc09d99a20b67b1378ac7f36ff7c4ffe63ae2d103812c8642d3f"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/ours/kernels/block_sparse_b128.py",
+    "original_sha256": "2da276d8c77867232f3babb35916da83572b593822acc710497976e8873c63f3",
+    "staged_sha256": "c55387e1fc9856a38e595ccee1b16ee4fd58edb8307ec9989df6b4127eeadd44",
+    "final_sha256": "c55387e1fc9856a38e595ccee1b16ee4fd58edb8307ec9989df6b4127eeadd44"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/ours/kernels/block_sparse_b256.py",
+    "original_sha256": "3980c198c552db8d0afa3260288fd0064dfc38f83ba1348abda863ce3827c8e1",
+    "staged_sha256": "6e23682dc9166503eabd63263ff8c82a38a24b85c089b9f3ce0d0e3845d4c179",
+    "final_sha256": "6e23682dc9166503eabd63263ff8c82a38a24b85c089b9f3ce0d0e3845d4c179"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/ours/kernels/dynamic.py",
+    "original_sha256": "8295ecc47418022208ea3a459c9674c6091902e3144901b1acea258c531cf7bd",
+    "staged_sha256": "bc662e69c95764e717ecf52e35ce66f42fb8f7f6cdb007a997af6b0129c6e53c",
+    "final_sha256": "bc662e69c95764e717ecf52e35ce66f42fb8f7f6cdb007a997af6b0129c6e53c"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/ours/kernels/extensions.py",
+    "original_sha256": "63032d6356fb66108577539ad6c229027fe5736310dcb9f4612bf287761e056d",
+    "staged_sha256": "a1804a70ee5b9d4c2c2e4dd19fee97bcf01bc737557627a7bce9827576070910",
+    "final_sha256": "a1804a70ee5b9d4c2c2e4dd19fee97bcf01bc737557627a7bce9827576070910"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/ours/kernels/extensions_b128.py",
+    "original_sha256": "273c46c650a41633f2f0b10017bde929dff9844f83fc07ee8f44261113de79e6",
+    "staged_sha256": "4a2d433f5ce76bdf32f970ecce79e0c5c123ef1974e8c6e303e43e95b88b21d7",
+    "final_sha256": "4a2d433f5ce76bdf32f970ecce79e0c5c123ef1974e8c6e303e43e95b88b21d7"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/ours/kernels/extensions_b256.py",
+    "original_sha256": "40bb247b8fe104c09fa3b7231e33aff2e3c58f55a2ab57c2fa1ce80f20315764",
+    "staged_sha256": "9f82e49c4179f8b4c17bfa75ff968d8f5f299076e1642d57b14ddcc640db7c2b",
+    "final_sha256": "9f82e49c4179f8b4c17bfa75ff968d8f5f299076e1642d57b14ddcc640db7c2b"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/ours/kernels/join_rms.py",
+    "original_sha256": "988191b2ecafa15fa7ec95f526a954ae0842abc7da55bd841d4b3b7b7138800a",
+    "staged_sha256": "616d1bc43da91e5f11ea84ea485e3c6f683e330618ccdd867b92ab63877c9b37",
+    "final_sha256": "616d1bc43da91e5f11ea84ea485e3c6f683e330618ccdd867b92ab63877c9b37"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/ours/kernels/lm_head.py",
+    "original_sha256": "716981ce0733e331e3d5feaf31a023875ca6fc649739f99df914bfe967e633ce",
+    "staged_sha256": "81353f37fa488a9f7c57202a7e2f68bc18c665281fc6f6a010c2b0291a1b2b79",
+    "final_sha256": "81353f37fa488a9f7c57202a7e2f68bc18c665281fc6f6a010c2b0291a1b2b79"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/ours/kernels/transition.py",
+    "original_sha256": "0e5eb3635132ecd25599aea58264a051d09241c38e3cce9b667e9509197d40dc",
+    "staged_sha256": "05e194958f3463551590337eebc66ec2ee6e2ef5533f65e016040d50d9355cbe",
+    "final_sha256": "05e194958f3463551590337eebc66ec2ee6e2ef5533f65e016040d50d9355cbe"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/ours/kernels/__init__.py",
+    "original_sha256": "2f36a7eb309b9fc854f5fa47e8b85980d9b6582413028a64a2b1423ee9730868",
+    "staged_sha256": "b07bdb9536d051ee85d2a8fc7683d0219ecb905e94ebe52932439c2f34cca098",
+    "final_sha256": "b07bdb9536d051ee85d2a8fc7683d0219ecb905e94ebe52932439c2f34cca098"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/ours/kernels/csrc/block_sparse_b128_gemv.cu",
+    "original_sha256": "2299bbcf1ed3f13b983150e9e0f4f917e31bb4f5abba8f2c821f6ca6f41abf2a",
+    "staged_sha256": "e81b382be990f3638898cbb45793e5319642cac926aa52b6e194dadc8a32f831",
+    "final_sha256": "e81b382be990f3638898cbb45793e5319642cac926aa52b6e194dadc8a32f831"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/ours/kernels/csrc/block_sparse_gemv.cu",
+    "original_sha256": "4efa9b98b1b694a1f278e450490309b94fb99c8ffa45a943fcb788ffd59be4bc",
+    "staged_sha256": "86c51848d50435df43d86b1996189202d16dd08558af7c1a15a3cbb480e15628",
+    "final_sha256": "86c51848d50435df43d86b1996189202d16dd08558af7c1a15a3cbb480e15628"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/ours/kernels/csrc/dynamic_cutoff_gemv.cu",
+    "original_sha256": "3a155c32bcebc7a9e7def89791b2d5d941b7e2d785e09e7abeb0925e26471803",
+    "staged_sha256": "25ccad16823da9de2ec83f2248cc7a474f28b17ceb63191a6558a1813d48fe0b",
+    "final_sha256": "25ccad16823da9de2ec83f2248cc7a474f28b17ceb63191a6558a1813d48fe0b"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/ours/kernels/csrc/join_rms.cu",
+    "original_sha256": "d0175e1eed3e96bab5203cfbf437c49e9bbcd6e9f7b9bff42b5b78de649a7cb3",
+    "staged_sha256": "b99d2e5005e56b5f232c073c7d552f9cc1c1dd152dcda25d9db315425ab045bf",
+    "final_sha256": "b99d2e5005e56b5f232c073c7d552f9cc1c1dd152dcda25d9db315425ab045bf"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/ours/kernels/csrc/lm_head.cu",
+    "original_sha256": "a56e0370591cc194ff8e4d8350b7c2c1a33167777c22cf2d6deb7a9ee29acd30",
+    "staged_sha256": "ba01395145ae7db6152bdef433309a2a174447ad0f06932a742609e8efa3318c",
+    "final_sha256": "ba01395145ae7db6152bdef433309a2a174447ad0f06932a742609e8efa3318c"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/kernels/compile_wrapper.py",
+    "original_sha256": "42c734176ddd63c9e3d0fa1d47df6b48b553887e2a17694bd86ba21415d6d307",
+    "staged_sha256": "5c5999fac12a9caf8ce8e2064ee1b716b78b44e8be1f6b25635a5ac6d8b679ea",
+    "final_sha256": "5c5999fac12a9caf8ce8e2064ee1b716b78b44e8be1f6b25635a5ac6d8b679ea"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/kernels/kernel_utils.py",
+    "original_sha256": "1ef77ecc854a0bc10c083938c72f51412c7318f06b1520860855d8e43e767fcf",
+    "staged_sha256": "6213a9df70e4485b26e406ae14a82bbcf939ea9b731c60f8df6c94611c8d6ab0",
+    "final_sha256": "6213a9df70e4485b26e406ae14a82bbcf939ea9b731c60f8df6c94611c8d6ab0"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/kernels/sparse_gemv.py",
+    "original_sha256": "56076ea83fbf44e445d1a6531c3b3d93ef40591414df4ce487c8a94c757ac0fa",
+    "staged_sha256": "d52c139f4a70755014bcd18f2da400bfdfe9909a59c7a2ec41d6118a57617060",
+    "final_sha256": "d52c139f4a70755014bcd18f2da400bfdfe9909a59c7a2ec41d6118a57617060"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/kernels/__init__.py",
+    "original_sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+    "staged_sha256": "f08153d16a9490d994a25d5a341ff8acfc405deddabd0d2134ef9af9d46acd54",
+    "final_sha256": "f08153d16a9490d994a25d5a341ff8acfc405deddabd0d2134ef9af9d46acd54"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/utils/data.py",
+    "original_sha256": "c13ffcc2a8d54e3626377f98535e0b585d4f3467df33666623849c1c657fc5e1",
+    "staged_sha256": "003e4d0e26ce279d456d7210fa171d978e847425fcdbf8e1cb678baa46813474",
+    "final_sha256": "003e4d0e26ce279d456d7210fa171d978e847425fcdbf8e1cb678baa46813474"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/utils/eval_ppl.py",
+    "original_sha256": "7b25643ffca26a0b25cdff5fba9afafe1dc8f9465d4c89d934d7df7f34172c7b",
+    "staged_sha256": "be211e038f6851121824de0713934222a7896d1e0df3a860d7f3760fc1074d2e",
+    "final_sha256": "be211e038f6851121824de0713934222a7896d1e0df3a860d7f3760fc1074d2e"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/utils/utils.py",
+    "original_sha256": "c69a7f50057ffbcd0060db6dd3528043f6ce06cbeda2ec35284820e2b6b6045a",
+    "staged_sha256": "007e177f95cee3638c893dcd04d0c71fd307514535f467421fdf1c1ace5280b5",
+    "final_sha256": "007e177f95cee3638c893dcd04d0c71fd307514535f467421fdf1c1ace5280b5"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/utils/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "staged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "final_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/gpt-fast/model.py",
+    "original_sha256": "3f2c3ecb554b71faee74df60a53e2dbd925c7de044e609826392dbcd66080a4d",
+    "staged_sha256": "eaaf8afc1b56fcf669e8e0b82a414012f12bb38484ec833756b6dbeba343edce",
+    "final_sha256": "eaaf8afc1b56fcf669e8e0b82a414012f12bb38484ec833756b6dbeba343edce"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/gpt-fast/generate.py",
+    "original_sha256": "5aea70402fb90a47ec5e65f819b3478f8e5d14841fa971044ca99cd2834888fb",
+    "staged_sha256": "bf48ea1179626e18b7059e83f6c19983b656e7d5b6ab8ac692a40b476a045a27",
+    "final_sha256": "bf48ea1179626e18b7059e83f6c19983b656e7d5b6ab8ac692a40b476a045a27"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/gpt-fast/tokenizer.py",
+    "original_sha256": "7ac49c30e61eede95a215ceabf966a7e3d7f0f724b5ca2d268d2db7c44c2a8c4",
+    "staged_sha256": "e6f44bf1fa9c26a162a90ea4a62fb78a4b46a2371f159e9f632626cad2213e52",
+    "final_sha256": "e6f44bf1fa9c26a162a90ea4a62fb78a4b46a2371f159e9f632626cad2213e52"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/gpt-fast/LICENSE",
+    "original_sha256": "9782ccaa2f6ca42b4a6995fabc86734526389ef5532bd24f63cbdefac05885c3",
+    "staged_sha256": "c069ffa5ca5a65a875e40531ae7b8bfbf1f67ccc6bd3c726146cbef2747f56bb",
+    "final_sha256": "c069ffa5ca5a65a875e40531ae7b8bfbf1f67ccc6bd3c726146cbef2747f56bb"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/runtime_source/scripts/benchmark_ours.py",
+    "original_sha256": "07a614694be42895e0519812df0614ae3b045f0bb413e50f93864e4da3f0fb0b",
+    "staged_sha256": "93d5bc2660a0814df64f953032962aa1130f9b417f3b27d02735321d616ab32b",
+    "final_sha256": "92fc80c3f80495268f398398187248c5b1e6e97af4d64a73137b7977c701d5e0"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/adaptive_transition.py",
+    "original_sha256": "56858d368e11244179f33280baf1e96d00ef1347683f38d49dc35fe2daff9f91",
+    "staged_sha256": "c7c810dd8df257d220bd68bc32e1c2d0183222385c7b8821f4e1fb65481fa0dc",
+    "final_sha256": "c7c810dd8df257d220bd68bc32e1c2d0183222385c7b8821f4e1fb65481fa0dc"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/transition_lifetime.py",
+    "original_sha256": "19c498df16445048a3e86abffa8d1196d2d8b340b5c2072bc3493b8fa0e2e03f",
+    "staged_sha256": "463928123cddea129ad383c2e31ea24917fbd91e69eac4245a7cd3e2b6ff7df9",
+    "final_sha256": "463928123cddea129ad383c2e31ea24917fbd91e69eac4245a7cd3e2b6ff7df9"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/block_sparse_b128_gemv.cu",
+    "original_sha256": "3a02ef2d91650ab96412b4feecd80d1bb66485a93218b545384d12157d5d3e37",
+    "staged_sha256": "c3433f30462a9c5fd4db8afdb061d7f042db6248aa856934343340307271b9ea",
+    "final_sha256": "c3433f30462a9c5fd4db8afdb061d7f042db6248aa856934343340307271b9ea"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/qwen_runtime.py",
+    "original_sha256": "30a97891a6b42741935eb2fc757c0bb2289c463186eb389ac1e9f6e037b0753a",
+    "staged_sha256": "afdc0fad730de1adc8a79b63b5a407506216ed9ea28981e758324f257ab7181d",
+    "final_sha256": "afdc0fad730de1adc8a79b63b5a407506216ed9ea28981e758324f257ab7181d"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/worker.py",
+    "original_sha256": "6e1dc8be2b381623e711a533f5fe806623ffa8352a997075620a5867f3d1000d",
+    "staged_sha256": "ca4c4e51dcfe213e687f0237292556a48ae502df4880849fe706157e40c2b80c",
+    "final_sha256": "4dad9b8a43291c5c471980cc951e27722d6cc8fc409ad80dd576581b3ab00fa4"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/calibrate.py",
+    "original_sha256": "da9eed3dd1e7ba2c66a9b232b5f3c2b885bf0866af6efc732d09088619eb29e8",
+    "staged_sha256": "05da9c4b90bf8cc06b64534a58a4d9bc29d5efbb2033e8538d1487c4ede2a6f8",
+    "final_sha256": "b742193a322a716723eb100a10ab4a99bab505a5c4837a8c708bed9572ddda45"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/llama2/calibrate_centers.py",
+    "original_sha256": "019fa24ed7ee4837b8d2bb0c9b02dcc6e42ffc014b4bb495c55e34fb72c2c57d",
+    "staged_sha256": "255ea32de81088d053edbe4db744c6b9cfc4a2d3349db6ee69606520b02b0f07",
+    "final_sha256": "f01108106d0458dc02c765f1be120c2592d789281cc729812f85c9f5407743e3"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/ours/config.py",
+    "original_sha256": "202e33ab02e51b53b56fd94af6708efaf008765a62544e2b1c14c27eaa6b9cd7",
+    "staged_sha256": "ae531ee75706083f6306ea77e225dbf28d2dfadfe66e41f6aa04b932ae55ad46",
+    "final_sha256": "ae531ee75706083f6306ea77e225dbf28d2dfadfe66e41f6aa04b932ae55ad46"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/ours/loader.py",
+    "original_sha256": "468666dfa6b446a33ed85ef7f8c17476830c228f93e05fc197da71aed16647ec",
+    "staged_sha256": "ec8bc627a0b01fbb625539fcfb2a205571f02a448b66a6baa1c2a13cbe87ad0d",
+    "final_sha256": "ec8bc627a0b01fbb625539fcfb2a205571f02a448b66a6baa1c2a13cbe87ad0d"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/ours/runtime.py",
+    "original_sha256": "140d033cabe03c0ccde45588978f7079476dbcc0dc625f32d3501a378fad4d98",
+    "staged_sha256": "e5a1cac3fa1cab26b2de6396538302779d25fb58dbe5b2c28daaf094e93acaca",
+    "final_sha256": "e5a1cac3fa1cab26b2de6396538302779d25fb58dbe5b2c28daaf094e93acaca"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/ours/sidecar.py",
+    "original_sha256": "576be3e7230e47466ad1061e369898e9c847cb7f62185e78d775af4d8f0a0ec2",
+    "staged_sha256": "27cddf02fa3f11c1fb3d4421d23a1f18289ced31b5ee42daae00d8fa517cfc47",
+    "final_sha256": "27cddf02fa3f11c1fb3d4421d23a1f18289ced31b5ee42daae00d8fa517cfc47"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/ours/__init__.py",
+    "original_sha256": "6e515dc74785720f57fcf2b2fd60873cc7463f9425a6e9d963a4532692126708",
+    "staged_sha256": "ffcab87052a78270bd97ab09ae81967df1e0c499aeb50d881ba44bdf36fd9354",
+    "final_sha256": "ffcab87052a78270bd97ab09ae81967df1e0c499aeb50d881ba44bdf36fd9354"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/ours/kernels/block_sparse.py",
+    "original_sha256": "0a9eaf68eb8675f1fede68daa233faa32222c35c80055ae838a259148be00d03",
+    "staged_sha256": "f58e48331386dc09d99a20b67b1378ac7f36ff7c4ffe63ae2d103812c8642d3f",
+    "final_sha256": "f58e48331386dc09d99a20b67b1378ac7f36ff7c4ffe63ae2d103812c8642d3f"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/ours/kernels/block_sparse_b128.py",
+    "original_sha256": "2da276d8c77867232f3babb35916da83572b593822acc710497976e8873c63f3",
+    "staged_sha256": "c55387e1fc9856a38e595ccee1b16ee4fd58edb8307ec9989df6b4127eeadd44",
+    "final_sha256": "c55387e1fc9856a38e595ccee1b16ee4fd58edb8307ec9989df6b4127eeadd44"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/ours/kernels/block_sparse_b256.py",
+    "original_sha256": "3980c198c552db8d0afa3260288fd0064dfc38f83ba1348abda863ce3827c8e1",
+    "staged_sha256": "6e23682dc9166503eabd63263ff8c82a38a24b85c089b9f3ce0d0e3845d4c179",
+    "final_sha256": "6e23682dc9166503eabd63263ff8c82a38a24b85c089b9f3ce0d0e3845d4c179"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/ours/kernels/dynamic.py",
+    "original_sha256": "8295ecc47418022208ea3a459c9674c6091902e3144901b1acea258c531cf7bd",
+    "staged_sha256": "bc662e69c95764e717ecf52e35ce66f42fb8f7f6cdb007a997af6b0129c6e53c",
+    "final_sha256": "bc662e69c95764e717ecf52e35ce66f42fb8f7f6cdb007a997af6b0129c6e53c"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/ours/kernels/extensions.py",
+    "original_sha256": "2a86a69af092bae6603268a7020ed1c09bc6de752d3fe817f60e915a8aa44e46",
+    "staged_sha256": "ca1c415b0d5c9085ccc1e5934bdc813eb338b5d6e7d0ac3ed93814f4c0e5c0d8",
+    "final_sha256": "ca1c415b0d5c9085ccc1e5934bdc813eb338b5d6e7d0ac3ed93814f4c0e5c0d8"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/ours/kernels/extensions_b128.py",
+    "original_sha256": "273c46c650a41633f2f0b10017bde929dff9844f83fc07ee8f44261113de79e6",
+    "staged_sha256": "4a2d433f5ce76bdf32f970ecce79e0c5c123ef1974e8c6e303e43e95b88b21d7",
+    "final_sha256": "4a2d433f5ce76bdf32f970ecce79e0c5c123ef1974e8c6e303e43e95b88b21d7"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/ours/kernels/extensions_b256.py",
+    "original_sha256": "40bb247b8fe104c09fa3b7231e33aff2e3c58f55a2ab57c2fa1ce80f20315764",
+    "staged_sha256": "9f82e49c4179f8b4c17bfa75ff968d8f5f299076e1642d57b14ddcc640db7c2b",
+    "final_sha256": "9f82e49c4179f8b4c17bfa75ff968d8f5f299076e1642d57b14ddcc640db7c2b"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/ours/kernels/join_rms.py",
+    "original_sha256": "988191b2ecafa15fa7ec95f526a954ae0842abc7da55bd841d4b3b7b7138800a",
+    "staged_sha256": "616d1bc43da91e5f11ea84ea485e3c6f683e330618ccdd867b92ab63877c9b37",
+    "final_sha256": "616d1bc43da91e5f11ea84ea485e3c6f683e330618ccdd867b92ab63877c9b37"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/ours/kernels/lm_head.py",
+    "original_sha256": "716981ce0733e331e3d5feaf31a023875ca6fc649739f99df914bfe967e633ce",
+    "staged_sha256": "81353f37fa488a9f7c57202a7e2f68bc18c665281fc6f6a010c2b0291a1b2b79",
+    "final_sha256": "81353f37fa488a9f7c57202a7e2f68bc18c665281fc6f6a010c2b0291a1b2b79"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/ours/kernels/transition.py",
+    "original_sha256": "0e5eb3635132ecd25599aea58264a051d09241c38e3cce9b667e9509197d40dc",
+    "staged_sha256": "05e194958f3463551590337eebc66ec2ee6e2ef5533f65e016040d50d9355cbe",
+    "final_sha256": "05e194958f3463551590337eebc66ec2ee6e2ef5533f65e016040d50d9355cbe"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/ours/kernels/__init__.py",
+    "original_sha256": "2f36a7eb309b9fc854f5fa47e8b85980d9b6582413028a64a2b1423ee9730868",
+    "staged_sha256": "b07bdb9536d051ee85d2a8fc7683d0219ecb905e94ebe52932439c2f34cca098",
+    "final_sha256": "b07bdb9536d051ee85d2a8fc7683d0219ecb905e94ebe52932439c2f34cca098"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/ours/kernels/csrc/block_sparse_b128_gemv.cu",
+    "original_sha256": "2299bbcf1ed3f13b983150e9e0f4f917e31bb4f5abba8f2c821f6ca6f41abf2a",
+    "staged_sha256": "e81b382be990f3638898cbb45793e5319642cac926aa52b6e194dadc8a32f831",
+    "final_sha256": "e81b382be990f3638898cbb45793e5319642cac926aa52b6e194dadc8a32f831"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/ours/kernels/csrc/block_sparse_gemv.cu",
+    "original_sha256": "4efa9b98b1b694a1f278e450490309b94fb99c8ffa45a943fcb788ffd59be4bc",
+    "staged_sha256": "86c51848d50435df43d86b1996189202d16dd08558af7c1a15a3cbb480e15628",
+    "final_sha256": "86c51848d50435df43d86b1996189202d16dd08558af7c1a15a3cbb480e15628"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/ours/kernels/csrc/dynamic_cutoff_gemv.cu",
+    "original_sha256": "3a155c32bcebc7a9e7def89791b2d5d941b7e2d785e09e7abeb0925e26471803",
+    "staged_sha256": "25ccad16823da9de2ec83f2248cc7a474f28b17ceb63191a6558a1813d48fe0b",
+    "final_sha256": "25ccad16823da9de2ec83f2248cc7a474f28b17ceb63191a6558a1813d48fe0b"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/ours/kernels/csrc/join_rms.cu",
+    "original_sha256": "d0175e1eed3e96bab5203cfbf437c49e9bbcd6e9f7b9bff42b5b78de649a7cb3",
+    "staged_sha256": "b99d2e5005e56b5f232c073c7d552f9cc1c1dd152dcda25d9db315425ab045bf",
+    "final_sha256": "b99d2e5005e56b5f232c073c7d552f9cc1c1dd152dcda25d9db315425ab045bf"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/ours/kernels/csrc/lm_head.cu",
+    "original_sha256": "a56e0370591cc194ff8e4d8350b7c2c1a33167777c22cf2d6deb7a9ee29acd30",
+    "staged_sha256": "ba01395145ae7db6152bdef433309a2a174447ad0f06932a742609e8efa3318c",
+    "final_sha256": "ba01395145ae7db6152bdef433309a2a174447ad0f06932a742609e8efa3318c"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/kernels/compile_wrapper.py",
+    "original_sha256": "42c734176ddd63c9e3d0fa1d47df6b48b553887e2a17694bd86ba21415d6d307",
+    "staged_sha256": "5c5999fac12a9caf8ce8e2064ee1b716b78b44e8be1f6b25635a5ac6d8b679ea",
+    "final_sha256": "5c5999fac12a9caf8ce8e2064ee1b716b78b44e8be1f6b25635a5ac6d8b679ea"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/kernels/kernel_utils.py",
+    "original_sha256": "1ef77ecc854a0bc10c083938c72f51412c7318f06b1520860855d8e43e767fcf",
+    "staged_sha256": "6213a9df70e4485b26e406ae14a82bbcf939ea9b731c60f8df6c94611c8d6ab0",
+    "final_sha256": "6213a9df70e4485b26e406ae14a82bbcf939ea9b731c60f8df6c94611c8d6ab0"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/kernels/sparse_gemv.py",
+    "original_sha256": "ce2e7f9054e5b279e9efb475cdbdb8c07565493b8d6dac19413067a71e633b9c",
+    "staged_sha256": "f1c3c2eac3a493ab867d564230cb6f02a4d2718bf7afd6b4ee8aa10e8c8f4020",
+    "final_sha256": "f1c3c2eac3a493ab867d564230cb6f02a4d2718bf7afd6b4ee8aa10e8c8f4020"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/kernels/__init__.py",
+    "original_sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+    "staged_sha256": "f08153d16a9490d994a25d5a341ff8acfc405deddabd0d2134ef9af9d46acd54",
+    "final_sha256": "f08153d16a9490d994a25d5a341ff8acfc405deddabd0d2134ef9af9d46acd54"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/utils/data.py",
+    "original_sha256": "c13ffcc2a8d54e3626377f98535e0b585d4f3467df33666623849c1c657fc5e1",
+    "staged_sha256": "003e4d0e26ce279d456d7210fa171d978e847425fcdbf8e1cb678baa46813474",
+    "final_sha256": "003e4d0e26ce279d456d7210fa171d978e847425fcdbf8e1cb678baa46813474"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/utils/eval_ppl.py",
+    "original_sha256": "7b25643ffca26a0b25cdff5fba9afafe1dc8f9465d4c89d934d7df7f34172c7b",
+    "staged_sha256": "be211e038f6851121824de0713934222a7896d1e0df3a860d7f3760fc1074d2e",
+    "final_sha256": "be211e038f6851121824de0713934222a7896d1e0df3a860d7f3760fc1074d2e"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/utils/utils.py",
+    "original_sha256": "c69a7f50057ffbcd0060db6dd3528043f6ce06cbeda2ec35284820e2b6b6045a",
+    "staged_sha256": "007e177f95cee3638c893dcd04d0c71fd307514535f467421fdf1c1ace5280b5",
+    "final_sha256": "007e177f95cee3638c893dcd04d0c71fd307514535f467421fdf1c1ace5280b5"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/utils/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "staged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "final_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/gpt-fast/model.py",
+    "original_sha256": "3f2c3ecb554b71faee74df60a53e2dbd925c7de044e609826392dbcd66080a4d",
+    "staged_sha256": "eaaf8afc1b56fcf669e8e0b82a414012f12bb38484ec833756b6dbeba343edce",
+    "final_sha256": "eaaf8afc1b56fcf669e8e0b82a414012f12bb38484ec833756b6dbeba343edce"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/gpt-fast/generate.py",
+    "original_sha256": "5aea70402fb90a47ec5e65f819b3478f8e5d14841fa971044ca99cd2834888fb",
+    "staged_sha256": "bf48ea1179626e18b7059e83f6c19983b656e7d5b6ab8ac692a40b476a045a27",
+    "final_sha256": "bf48ea1179626e18b7059e83f6c19983b656e7d5b6ab8ac692a40b476a045a27"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/gpt-fast/tokenizer.py",
+    "original_sha256": "7ac49c30e61eede95a215ceabf966a7e3d7f0f724b5ca2d268d2db7c44c2a8c4",
+    "staged_sha256": "e6f44bf1fa9c26a162a90ea4a62fb78a4b46a2371f159e9f632626cad2213e52",
+    "final_sha256": "e6f44bf1fa9c26a162a90ea4a62fb78a4b46a2371f159e9f632626cad2213e52"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/gpt-fast/LICENSE",
+    "original_sha256": "9782ccaa2f6ca42b4a6995fabc86734526389ef5532bd24f63cbdefac05885c3",
+    "staged_sha256": "c069ffa5ca5a65a875e40531ae7b8bfbf1f67ccc6bd3c726146cbef2747f56bb",
+    "final_sha256": "c069ffa5ca5a65a875e40531ae7b8bfbf1f67ccc6bd3c726146cbef2747f56bb"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/runtime_source/scripts/benchmark_ours.py",
+    "original_sha256": "07a614694be42895e0519812df0614ae3b045f0bb413e50f93864e4da3f0fb0b",
+    "staged_sha256": "93d5bc2660a0814df64f953032962aa1130f9b417f3b27d02735321d616ab32b",
+    "final_sha256": "92fc80c3f80495268f398398187248c5b1e6e97af4d64a73137b7977c701d5e0"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/adaptive_transition.py",
+    "original_sha256": "56858d368e11244179f33280baf1e96d00ef1347683f38d49dc35fe2daff9f91",
+    "staged_sha256": "c7c810dd8df257d220bd68bc32e1c2d0183222385c7b8821f4e1fb65481fa0dc",
+    "final_sha256": "c7c810dd8df257d220bd68bc32e1c2d0183222385c7b8821f4e1fb65481fa0dc"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/transition_lifetime.py",
+    "original_sha256": "19c498df16445048a3e86abffa8d1196d2d8b340b5c2072bc3493b8fa0e2e03f",
+    "staged_sha256": "463928123cddea129ad383c2e31ea24917fbd91e69eac4245a7cd3e2b6ff7df9",
+    "final_sha256": "463928123cddea129ad383c2e31ea24917fbd91e69eac4245a7cd3e2b6ff7df9"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/block_sparse_b128_gemv.cu",
+    "original_sha256": "b61edb7ad7b50a7182bd9543fcbaecaa09b5b76ffdc0e77280f73aedb4fc16a6",
+    "staged_sha256": "99c2d4bc59f6f527344292ebeed1e81376e3dae71137854acf09d091868bc8a6",
+    "final_sha256": "99c2d4bc59f6f527344292ebeed1e81376e3dae71137854acf09d091868bc8a6"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/qwen_runtime.py",
+    "original_sha256": "30a97891a6b42741935eb2fc757c0bb2289c463186eb389ac1e9f6e037b0753a",
+    "staged_sha256": "afdc0fad730de1adc8a79b63b5a407506216ed9ea28981e758324f257ab7181d",
+    "final_sha256": "afdc0fad730de1adc8a79b63b5a407506216ed9ea28981e758324f257ab7181d"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/worker.py",
+    "original_sha256": "6e1dc8be2b381623e711a533f5fe806623ffa8352a997075620a5867f3d1000d",
+    "staged_sha256": "ca4c4e51dcfe213e687f0237292556a48ae502df4880849fe706157e40c2b80c",
+    "final_sha256": "4dad9b8a43291c5c471980cc951e27722d6cc8fc409ad80dd576581b3ab00fa4"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/calibrate.py",
+    "original_sha256": "da9eed3dd1e7ba2c66a9b232b5f3c2b885bf0866af6efc732d09088619eb29e8",
+    "staged_sha256": "05da9c4b90bf8cc06b64534a58a4d9bc29d5efbb2033e8538d1487c4ede2a6f8",
+    "final_sha256": "b742193a322a716723eb100a10ab4a99bab505a5c4837a8c708bed9572ddda45"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/mistral/calibrate_centers.py",
+    "original_sha256": "019fa24ed7ee4837b8d2bb0c9b02dcc6e42ffc014b4bb495c55e34fb72c2c57d",
+    "staged_sha256": "255ea32de81088d053edbe4db744c6b9cfc4a2d3349db6ee69606520b02b0f07",
+    "final_sha256": "f01108106d0458dc02c765f1be120c2592d789281cc729812f85c9f5407743e3"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/ours/config.py",
+    "original_sha256": "202e33ab02e51b53b56fd94af6708efaf008765a62544e2b1c14c27eaa6b9cd7",
+    "staged_sha256": "ae531ee75706083f6306ea77e225dbf28d2dfadfe66e41f6aa04b932ae55ad46",
+    "final_sha256": "ae531ee75706083f6306ea77e225dbf28d2dfadfe66e41f6aa04b932ae55ad46"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/ours/loader.py",
+    "original_sha256": "468666dfa6b446a33ed85ef7f8c17476830c228f93e05fc197da71aed16647ec",
+    "staged_sha256": "ec8bc627a0b01fbb625539fcfb2a205571f02a448b66a6baa1c2a13cbe87ad0d",
+    "final_sha256": "ec8bc627a0b01fbb625539fcfb2a205571f02a448b66a6baa1c2a13cbe87ad0d"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/ours/runtime.py",
+    "original_sha256": "862fef9c1f699917c6608d92cc06b68d2e0bf17d5e12ae4873ebe7a53e3c1dbb",
+    "staged_sha256": "ed5beffb662fcdc0980b3f0af4d236f2babb5c72e37099b7022959270c647c72",
+    "final_sha256": "ed5beffb662fcdc0980b3f0af4d236f2babb5c72e37099b7022959270c647c72"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/ours/sidecar.py",
+    "original_sha256": "576be3e7230e47466ad1061e369898e9c847cb7f62185e78d775af4d8f0a0ec2",
+    "staged_sha256": "27cddf02fa3f11c1fb3d4421d23a1f18289ced31b5ee42daae00d8fa517cfc47",
+    "final_sha256": "27cddf02fa3f11c1fb3d4421d23a1f18289ced31b5ee42daae00d8fa517cfc47"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/ours/__init__.py",
+    "original_sha256": "6e515dc74785720f57fcf2b2fd60873cc7463f9425a6e9d963a4532692126708",
+    "staged_sha256": "ffcab87052a78270bd97ab09ae81967df1e0c499aeb50d881ba44bdf36fd9354",
+    "final_sha256": "ffcab87052a78270bd97ab09ae81967df1e0c499aeb50d881ba44bdf36fd9354"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/ours/kernels/block_sparse.py",
+    "original_sha256": "0a9eaf68eb8675f1fede68daa233faa32222c35c80055ae838a259148be00d03",
+    "staged_sha256": "f58e48331386dc09d99a20b67b1378ac7f36ff7c4ffe63ae2d103812c8642d3f",
+    "final_sha256": "f58e48331386dc09d99a20b67b1378ac7f36ff7c4ffe63ae2d103812c8642d3f"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/ours/kernels/block_sparse_b128.py",
+    "original_sha256": "2da276d8c77867232f3babb35916da83572b593822acc710497976e8873c63f3",
+    "staged_sha256": "c55387e1fc9856a38e595ccee1b16ee4fd58edb8307ec9989df6b4127eeadd44",
+    "final_sha256": "c55387e1fc9856a38e595ccee1b16ee4fd58edb8307ec9989df6b4127eeadd44"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/ours/kernels/block_sparse_b256.py",
+    "original_sha256": "3980c198c552db8d0afa3260288fd0064dfc38f83ba1348abda863ce3827c8e1",
+    "staged_sha256": "6e23682dc9166503eabd63263ff8c82a38a24b85c089b9f3ce0d0e3845d4c179",
+    "final_sha256": "6e23682dc9166503eabd63263ff8c82a38a24b85c089b9f3ce0d0e3845d4c179"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/ours/kernels/dynamic.py",
+    "original_sha256": "8295ecc47418022208ea3a459c9674c6091902e3144901b1acea258c531cf7bd",
+    "staged_sha256": "bc662e69c95764e717ecf52e35ce66f42fb8f7f6cdb007a997af6b0129c6e53c",
+    "final_sha256": "bc662e69c95764e717ecf52e35ce66f42fb8f7f6cdb007a997af6b0129c6e53c"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/ours/kernels/extensions.py",
+    "original_sha256": "c173478a629d2267ada70b16d952e0602eb937e5cf74d6ea2db8328d3cf47a0a",
+    "staged_sha256": "ff2d056c79c6799ed59ae3b880b86f653c75d0a37b80444c87d961eaf3d0ca7d",
+    "final_sha256": "ff2d056c79c6799ed59ae3b880b86f653c75d0a37b80444c87d961eaf3d0ca7d"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/ours/kernels/extensions_b128.py",
+    "original_sha256": "273c46c650a41633f2f0b10017bde929dff9844f83fc07ee8f44261113de79e6",
+    "staged_sha256": "4a2d433f5ce76bdf32f970ecce79e0c5c123ef1974e8c6e303e43e95b88b21d7",
+    "final_sha256": "4a2d433f5ce76bdf32f970ecce79e0c5c123ef1974e8c6e303e43e95b88b21d7"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/ours/kernels/extensions_b256.py",
+    "original_sha256": "40bb247b8fe104c09fa3b7231e33aff2e3c58f55a2ab57c2fa1ce80f20315764",
+    "staged_sha256": "9f82e49c4179f8b4c17bfa75ff968d8f5f299076e1642d57b14ddcc640db7c2b",
+    "final_sha256": "9f82e49c4179f8b4c17bfa75ff968d8f5f299076e1642d57b14ddcc640db7c2b"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/ours/kernels/join_rms.py",
+    "original_sha256": "988191b2ecafa15fa7ec95f526a954ae0842abc7da55bd841d4b3b7b7138800a",
+    "staged_sha256": "616d1bc43da91e5f11ea84ea485e3c6f683e330618ccdd867b92ab63877c9b37",
+    "final_sha256": "616d1bc43da91e5f11ea84ea485e3c6f683e330618ccdd867b92ab63877c9b37"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/ours/kernels/lm_head.py",
+    "original_sha256": "716981ce0733e331e3d5feaf31a023875ca6fc649739f99df914bfe967e633ce",
+    "staged_sha256": "81353f37fa488a9f7c57202a7e2f68bc18c665281fc6f6a010c2b0291a1b2b79",
+    "final_sha256": "81353f37fa488a9f7c57202a7e2f68bc18c665281fc6f6a010c2b0291a1b2b79"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/ours/kernels/transition.py",
+    "original_sha256": "0e5eb3635132ecd25599aea58264a051d09241c38e3cce9b667e9509197d40dc",
+    "staged_sha256": "05e194958f3463551590337eebc66ec2ee6e2ef5533f65e016040d50d9355cbe",
+    "final_sha256": "05e194958f3463551590337eebc66ec2ee6e2ef5533f65e016040d50d9355cbe"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/ours/kernels/__init__.py",
+    "original_sha256": "2f36a7eb309b9fc854f5fa47e8b85980d9b6582413028a64a2b1423ee9730868",
+    "staged_sha256": "b07bdb9536d051ee85d2a8fc7683d0219ecb905e94ebe52932439c2f34cca098",
+    "final_sha256": "b07bdb9536d051ee85d2a8fc7683d0219ecb905e94ebe52932439c2f34cca098"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/ours/kernels/csrc/block_sparse_b128_gemv.cu",
+    "original_sha256": "2299bbcf1ed3f13b983150e9e0f4f917e31bb4f5abba8f2c821f6ca6f41abf2a",
+    "staged_sha256": "e81b382be990f3638898cbb45793e5319642cac926aa52b6e194dadc8a32f831",
+    "final_sha256": "e81b382be990f3638898cbb45793e5319642cac926aa52b6e194dadc8a32f831"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/ours/kernels/csrc/block_sparse_gemv.cu",
+    "original_sha256": "4efa9b98b1b694a1f278e450490309b94fb99c8ffa45a943fcb788ffd59be4bc",
+    "staged_sha256": "86c51848d50435df43d86b1996189202d16dd08558af7c1a15a3cbb480e15628",
+    "final_sha256": "86c51848d50435df43d86b1996189202d16dd08558af7c1a15a3cbb480e15628"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/ours/kernels/csrc/dynamic_cutoff_gemv.cu",
+    "original_sha256": "3a155c32bcebc7a9e7def89791b2d5d941b7e2d785e09e7abeb0925e26471803",
+    "staged_sha256": "25ccad16823da9de2ec83f2248cc7a474f28b17ceb63191a6558a1813d48fe0b",
+    "final_sha256": "25ccad16823da9de2ec83f2248cc7a474f28b17ceb63191a6558a1813d48fe0b"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/ours/kernels/csrc/join_rms.cu",
+    "original_sha256": "8861f16872457bf39655d1277cd496e608e427ff97b4337fd9dfafc5aac9bad3",
+    "staged_sha256": "9db2e424536766d195bf18d40e809737c4a37426bff56b16209fc5453aafd343",
+    "final_sha256": "9db2e424536766d195bf18d40e809737c4a37426bff56b16209fc5453aafd343"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/ours/kernels/csrc/lm_head.cu",
+    "original_sha256": "a56e0370591cc194ff8e4d8350b7c2c1a33167777c22cf2d6deb7a9ee29acd30",
+    "staged_sha256": "ba01395145ae7db6152bdef433309a2a174447ad0f06932a742609e8efa3318c",
+    "final_sha256": "ba01395145ae7db6152bdef433309a2a174447ad0f06932a742609e8efa3318c"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/kernels/compile_wrapper.py",
+    "original_sha256": "42c734176ddd63c9e3d0fa1d47df6b48b553887e2a17694bd86ba21415d6d307",
+    "staged_sha256": "5c5999fac12a9caf8ce8e2064ee1b716b78b44e8be1f6b25635a5ac6d8b679ea",
+    "final_sha256": "5c5999fac12a9caf8ce8e2064ee1b716b78b44e8be1f6b25635a5ac6d8b679ea"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/kernels/kernel_utils.py",
+    "original_sha256": "1ef77ecc854a0bc10c083938c72f51412c7318f06b1520860855d8e43e767fcf",
+    "staged_sha256": "6213a9df70e4485b26e406ae14a82bbcf939ea9b731c60f8df6c94611c8d6ab0",
+    "final_sha256": "6213a9df70e4485b26e406ae14a82bbcf939ea9b731c60f8df6c94611c8d6ab0"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/kernels/sparse_gemv.py",
+    "original_sha256": "ce2e7f9054e5b279e9efb475cdbdb8c07565493b8d6dac19413067a71e633b9c",
+    "staged_sha256": "f1c3c2eac3a493ab867d564230cb6f02a4d2718bf7afd6b4ee8aa10e8c8f4020",
+    "final_sha256": "f1c3c2eac3a493ab867d564230cb6f02a4d2718bf7afd6b4ee8aa10e8c8f4020"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/kernels/__init__.py",
+    "original_sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+    "staged_sha256": "f08153d16a9490d994a25d5a341ff8acfc405deddabd0d2134ef9af9d46acd54",
+    "final_sha256": "f08153d16a9490d994a25d5a341ff8acfc405deddabd0d2134ef9af9d46acd54"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/utils/data.py",
+    "original_sha256": "c13ffcc2a8d54e3626377f98535e0b585d4f3467df33666623849c1c657fc5e1",
+    "staged_sha256": "003e4d0e26ce279d456d7210fa171d978e847425fcdbf8e1cb678baa46813474",
+    "final_sha256": "003e4d0e26ce279d456d7210fa171d978e847425fcdbf8e1cb678baa46813474"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/utils/eval_ppl.py",
+    "original_sha256": "7b25643ffca26a0b25cdff5fba9afafe1dc8f9465d4c89d934d7df7f34172c7b",
+    "staged_sha256": "be211e038f6851121824de0713934222a7896d1e0df3a860d7f3760fc1074d2e",
+    "final_sha256": "be211e038f6851121824de0713934222a7896d1e0df3a860d7f3760fc1074d2e"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/utils/utils.py",
+    "original_sha256": "c69a7f50057ffbcd0060db6dd3528043f6ce06cbeda2ec35284820e2b6b6045a",
+    "staged_sha256": "007e177f95cee3638c893dcd04d0c71fd307514535f467421fdf1c1ace5280b5",
+    "final_sha256": "007e177f95cee3638c893dcd04d0c71fd307514535f467421fdf1c1ace5280b5"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/utils/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "staged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "final_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/gpt-fast/model.py",
+    "original_sha256": "3f2c3ecb554b71faee74df60a53e2dbd925c7de044e609826392dbcd66080a4d",
+    "staged_sha256": "eaaf8afc1b56fcf669e8e0b82a414012f12bb38484ec833756b6dbeba343edce",
+    "final_sha256": "eaaf8afc1b56fcf669e8e0b82a414012f12bb38484ec833756b6dbeba343edce"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/gpt-fast/generate.py",
+    "original_sha256": "5aea70402fb90a47ec5e65f819b3478f8e5d14841fa971044ca99cd2834888fb",
+    "staged_sha256": "bf48ea1179626e18b7059e83f6c19983b656e7d5b6ab8ac692a40b476a045a27",
+    "final_sha256": "bf48ea1179626e18b7059e83f6c19983b656e7d5b6ab8ac692a40b476a045a27"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/gpt-fast/tokenizer.py",
+    "original_sha256": "7ac49c30e61eede95a215ceabf966a7e3d7f0f724b5ca2d268d2db7c44c2a8c4",
+    "staged_sha256": "e6f44bf1fa9c26a162a90ea4a62fb78a4b46a2371f159e9f632626cad2213e52",
+    "final_sha256": "e6f44bf1fa9c26a162a90ea4a62fb78a4b46a2371f159e9f632626cad2213e52"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/gpt-fast/LICENSE",
+    "original_sha256": "9782ccaa2f6ca42b4a6995fabc86734526389ef5532bd24f63cbdefac05885c3",
+    "staged_sha256": "c069ffa5ca5a65a875e40531ae7b8bfbf1f67ccc6bd3c726146cbef2747f56bb",
+    "final_sha256": "c069ffa5ca5a65a875e40531ae7b8bfbf1f67ccc6bd3c726146cbef2747f56bb"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/runtime_source/scripts/benchmark_ours.py",
+    "original_sha256": "07a614694be42895e0519812df0614ae3b045f0bb413e50f93864e4da3f0fb0b",
+    "staged_sha256": "93d5bc2660a0814df64f953032962aa1130f9b417f3b27d02735321d616ab32b",
+    "final_sha256": "92fc80c3f80495268f398398187248c5b1e6e97af4d64a73137b7977c701d5e0"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/adaptive_transition.py",
+    "original_sha256": "56858d368e11244179f33280baf1e96d00ef1347683f38d49dc35fe2daff9f91",
+    "staged_sha256": "c7c810dd8df257d220bd68bc32e1c2d0183222385c7b8821f4e1fb65481fa0dc",
+    "final_sha256": "c7c810dd8df257d220bd68bc32e1c2d0183222385c7b8821f4e1fb65481fa0dc"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/transition_lifetime.py",
+    "original_sha256": "19c498df16445048a3e86abffa8d1196d2d8b340b5c2072bc3493b8fa0e2e03f",
+    "staged_sha256": "463928123cddea129ad383c2e31ea24917fbd91e69eac4245a7cd3e2b6ff7df9",
+    "final_sha256": "463928123cddea129ad383c2e31ea24917fbd91e69eac4245a7cd3e2b6ff7df9"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/block_sparse_b128_gemv.cu",
+    "original_sha256": "2c84c4776bc99db1fc89245cafb08d727a63923481e04200ec6b5c769d8914fc",
+    "staged_sha256": "a617334e09415fa0a6abc29ae42feeabafa4cdff2cdd0bca2fa7a7ecb164236c",
+    "final_sha256": "a617334e09415fa0a6abc29ae42feeabafa4cdff2cdd0bca2fa7a7ecb164236c"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/qwen_runtime.py",
+    "original_sha256": "30a97891a6b42741935eb2fc757c0bb2289c463186eb389ac1e9f6e037b0753a",
+    "staged_sha256": "afdc0fad730de1adc8a79b63b5a407506216ed9ea28981e758324f257ab7181d",
+    "final_sha256": "afdc0fad730de1adc8a79b63b5a407506216ed9ea28981e758324f257ab7181d"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/worker.py",
+    "original_sha256": "6e1dc8be2b381623e711a533f5fe806623ffa8352a997075620a5867f3d1000d",
+    "staged_sha256": "ca4c4e51dcfe213e687f0237292556a48ae502df4880849fe706157e40c2b80c",
+    "final_sha256": "4dad9b8a43291c5c471980cc951e27722d6cc8fc409ad80dd576581b3ab00fa4"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/calibrate.py",
+    "original_sha256": "da9eed3dd1e7ba2c66a9b232b5f3c2b885bf0866af6efc732d09088619eb29e8",
+    "staged_sha256": "05da9c4b90bf8cc06b64534a58a4d9bc29d5efbb2033e8538d1487c4ede2a6f8",
+    "final_sha256": "b742193a322a716723eb100a10ab4a99bab505a5c4837a8c708bed9572ddda45"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen25/calibrate_centers.py",
+    "original_sha256": "019fa24ed7ee4837b8d2bb0c9b02dcc6e42ffc014b4bb495c55e34fb72c2c57d",
+    "staged_sha256": "255ea32de81088d053edbe4db744c6b9cfc4a2d3349db6ee69606520b02b0f07",
+    "final_sha256": "f01108106d0458dc02c765f1be120c2592d789281cc729812f85c9f5407743e3"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/ours/config.py",
+    "original_sha256": "202e33ab02e51b53b56fd94af6708efaf008765a62544e2b1c14c27eaa6b9cd7",
+    "staged_sha256": "ae531ee75706083f6306ea77e225dbf28d2dfadfe66e41f6aa04b932ae55ad46",
+    "final_sha256": "ae531ee75706083f6306ea77e225dbf28d2dfadfe66e41f6aa04b932ae55ad46"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/ours/loader.py",
+    "original_sha256": "468666dfa6b446a33ed85ef7f8c17476830c228f93e05fc197da71aed16647ec",
+    "staged_sha256": "ec8bc627a0b01fbb625539fcfb2a205571f02a448b66a6baa1c2a13cbe87ad0d",
+    "final_sha256": "ec8bc627a0b01fbb625539fcfb2a205571f02a448b66a6baa1c2a13cbe87ad0d"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/ours/runtime.py",
+    "original_sha256": "88abb228d915567c9981a6a97eb862e61649e9382dd1eacd490cb7895eb72aec",
+    "staged_sha256": "9c94d22e89dd4663716200a5f668c633e8684892d88f36c3fa930fa38351870f",
+    "final_sha256": "9c94d22e89dd4663716200a5f668c633e8684892d88f36c3fa930fa38351870f"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/ours/sidecar.py",
+    "original_sha256": "576be3e7230e47466ad1061e369898e9c847cb7f62185e78d775af4d8f0a0ec2",
+    "staged_sha256": "27cddf02fa3f11c1fb3d4421d23a1f18289ced31b5ee42daae00d8fa517cfc47",
+    "final_sha256": "27cddf02fa3f11c1fb3d4421d23a1f18289ced31b5ee42daae00d8fa517cfc47"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/ours/__init__.py",
+    "original_sha256": "6e515dc74785720f57fcf2b2fd60873cc7463f9425a6e9d963a4532692126708",
+    "staged_sha256": "ffcab87052a78270bd97ab09ae81967df1e0c499aeb50d881ba44bdf36fd9354",
+    "final_sha256": "ffcab87052a78270bd97ab09ae81967df1e0c499aeb50d881ba44bdf36fd9354"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/ours/kernels/block_sparse.py",
+    "original_sha256": "0a9eaf68eb8675f1fede68daa233faa32222c35c80055ae838a259148be00d03",
+    "staged_sha256": "f58e48331386dc09d99a20b67b1378ac7f36ff7c4ffe63ae2d103812c8642d3f",
+    "final_sha256": "f58e48331386dc09d99a20b67b1378ac7f36ff7c4ffe63ae2d103812c8642d3f"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/ours/kernels/block_sparse_b128.py",
+    "original_sha256": "2da276d8c77867232f3babb35916da83572b593822acc710497976e8873c63f3",
+    "staged_sha256": "c55387e1fc9856a38e595ccee1b16ee4fd58edb8307ec9989df6b4127eeadd44",
+    "final_sha256": "c55387e1fc9856a38e595ccee1b16ee4fd58edb8307ec9989df6b4127eeadd44"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/ours/kernels/block_sparse_b256.py",
+    "original_sha256": "3980c198c552db8d0afa3260288fd0064dfc38f83ba1348abda863ce3827c8e1",
+    "staged_sha256": "6e23682dc9166503eabd63263ff8c82a38a24b85c089b9f3ce0d0e3845d4c179",
+    "final_sha256": "6e23682dc9166503eabd63263ff8c82a38a24b85c089b9f3ce0d0e3845d4c179"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/ours/kernels/dynamic.py",
+    "original_sha256": "8295ecc47418022208ea3a459c9674c6091902e3144901b1acea258c531cf7bd",
+    "staged_sha256": "bc662e69c95764e717ecf52e35ce66f42fb8f7f6cdb007a997af6b0129c6e53c",
+    "final_sha256": "bc662e69c95764e717ecf52e35ce66f42fb8f7f6cdb007a997af6b0129c6e53c"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/ours/kernels/extensions.py",
+    "original_sha256": "85a3714ed7a95096831d5726783570fa1cebad848b5310051b82bc556344c9db",
+    "staged_sha256": "de5065775478dea6135ddf6358d2f4186ed1a6feaf255385fdfda0a60ff141f2",
+    "final_sha256": "de5065775478dea6135ddf6358d2f4186ed1a6feaf255385fdfda0a60ff141f2"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/ours/kernels/extensions_b128.py",
+    "original_sha256": "273c46c650a41633f2f0b10017bde929dff9844f83fc07ee8f44261113de79e6",
+    "staged_sha256": "4a2d433f5ce76bdf32f970ecce79e0c5c123ef1974e8c6e303e43e95b88b21d7",
+    "final_sha256": "4a2d433f5ce76bdf32f970ecce79e0c5c123ef1974e8c6e303e43e95b88b21d7"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/ours/kernels/extensions_b256.py",
+    "original_sha256": "40bb247b8fe104c09fa3b7231e33aff2e3c58f55a2ab57c2fa1ce80f20315764",
+    "staged_sha256": "9f82e49c4179f8b4c17bfa75ff968d8f5f299076e1642d57b14ddcc640db7c2b",
+    "final_sha256": "9f82e49c4179f8b4c17bfa75ff968d8f5f299076e1642d57b14ddcc640db7c2b"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/ours/kernels/join_rms.py",
+    "original_sha256": "988191b2ecafa15fa7ec95f526a954ae0842abc7da55bd841d4b3b7b7138800a",
+    "staged_sha256": "616d1bc43da91e5f11ea84ea485e3c6f683e330618ccdd867b92ab63877c9b37",
+    "final_sha256": "616d1bc43da91e5f11ea84ea485e3c6f683e330618ccdd867b92ab63877c9b37"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/ours/kernels/lm_head.py",
+    "original_sha256": "716981ce0733e331e3d5feaf31a023875ca6fc649739f99df914bfe967e633ce",
+    "staged_sha256": "81353f37fa488a9f7c57202a7e2f68bc18c665281fc6f6a010c2b0291a1b2b79",
+    "final_sha256": "81353f37fa488a9f7c57202a7e2f68bc18c665281fc6f6a010c2b0291a1b2b79"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/ours/kernels/transition.py",
+    "original_sha256": "0e5eb3635132ecd25599aea58264a051d09241c38e3cce9b667e9509197d40dc",
+    "staged_sha256": "05e194958f3463551590337eebc66ec2ee6e2ef5533f65e016040d50d9355cbe",
+    "final_sha256": "05e194958f3463551590337eebc66ec2ee6e2ef5533f65e016040d50d9355cbe"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/ours/kernels/__init__.py",
+    "original_sha256": "2f36a7eb309b9fc854f5fa47e8b85980d9b6582413028a64a2b1423ee9730868",
+    "staged_sha256": "b07bdb9536d051ee85d2a8fc7683d0219ecb905e94ebe52932439c2f34cca098",
+    "final_sha256": "b07bdb9536d051ee85d2a8fc7683d0219ecb905e94ebe52932439c2f34cca098"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/ours/kernels/csrc/block_sparse_b128_gemv.cu",
+    "original_sha256": "2299bbcf1ed3f13b983150e9e0f4f917e31bb4f5abba8f2c821f6ca6f41abf2a",
+    "staged_sha256": "e81b382be990f3638898cbb45793e5319642cac926aa52b6e194dadc8a32f831",
+    "final_sha256": "e81b382be990f3638898cbb45793e5319642cac926aa52b6e194dadc8a32f831"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/ours/kernels/csrc/block_sparse_gemv.cu",
+    "original_sha256": "4efa9b98b1b694a1f278e450490309b94fb99c8ffa45a943fcb788ffd59be4bc",
+    "staged_sha256": "86c51848d50435df43d86b1996189202d16dd08558af7c1a15a3cbb480e15628",
+    "final_sha256": "86c51848d50435df43d86b1996189202d16dd08558af7c1a15a3cbb480e15628"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/ours/kernels/csrc/dynamic_cutoff_gemv.cu",
+    "original_sha256": "3a155c32bcebc7a9e7def89791b2d5d941b7e2d785e09e7abeb0925e26471803",
+    "staged_sha256": "25ccad16823da9de2ec83f2248cc7a474f28b17ceb63191a6558a1813d48fe0b",
+    "final_sha256": "25ccad16823da9de2ec83f2248cc7a474f28b17ceb63191a6558a1813d48fe0b"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/ours/kernels/csrc/join_rms.cu",
+    "original_sha256": "d0175e1eed3e96bab5203cfbf437c49e9bbcd6e9f7b9bff42b5b78de649a7cb3",
+    "staged_sha256": "b99d2e5005e56b5f232c073c7d552f9cc1c1dd152dcda25d9db315425ab045bf",
+    "final_sha256": "b99d2e5005e56b5f232c073c7d552f9cc1c1dd152dcda25d9db315425ab045bf"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/ours/kernels/csrc/lm_head.cu",
+    "original_sha256": "a56e0370591cc194ff8e4d8350b7c2c1a33167777c22cf2d6deb7a9ee29acd30",
+    "staged_sha256": "ba01395145ae7db6152bdef433309a2a174447ad0f06932a742609e8efa3318c",
+    "final_sha256": "ba01395145ae7db6152bdef433309a2a174447ad0f06932a742609e8efa3318c"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/kernels/compile_wrapper.py",
+    "original_sha256": "42c734176ddd63c9e3d0fa1d47df6b48b553887e2a17694bd86ba21415d6d307",
+    "staged_sha256": "5c5999fac12a9caf8ce8e2064ee1b716b78b44e8be1f6b25635a5ac6d8b679ea",
+    "final_sha256": "5c5999fac12a9caf8ce8e2064ee1b716b78b44e8be1f6b25635a5ac6d8b679ea"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/kernels/kernel_utils.py",
+    "original_sha256": "1ef77ecc854a0bc10c083938c72f51412c7318f06b1520860855d8e43e767fcf",
+    "staged_sha256": "6213a9df70e4485b26e406ae14a82bbcf939ea9b731c60f8df6c94611c8d6ab0",
+    "final_sha256": "6213a9df70e4485b26e406ae14a82bbcf939ea9b731c60f8df6c94611c8d6ab0"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/kernels/sparse_gemv.py",
+    "original_sha256": "ce2e7f9054e5b279e9efb475cdbdb8c07565493b8d6dac19413067a71e633b9c",
+    "staged_sha256": "f1c3c2eac3a493ab867d564230cb6f02a4d2718bf7afd6b4ee8aa10e8c8f4020",
+    "final_sha256": "f1c3c2eac3a493ab867d564230cb6f02a4d2718bf7afd6b4ee8aa10e8c8f4020"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/kernels/__init__.py",
+    "original_sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+    "staged_sha256": "f08153d16a9490d994a25d5a341ff8acfc405deddabd0d2134ef9af9d46acd54",
+    "final_sha256": "f08153d16a9490d994a25d5a341ff8acfc405deddabd0d2134ef9af9d46acd54"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/utils/data.py",
+    "original_sha256": "c13ffcc2a8d54e3626377f98535e0b585d4f3467df33666623849c1c657fc5e1",
+    "staged_sha256": "003e4d0e26ce279d456d7210fa171d978e847425fcdbf8e1cb678baa46813474",
+    "final_sha256": "003e4d0e26ce279d456d7210fa171d978e847425fcdbf8e1cb678baa46813474"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/utils/eval_ppl.py",
+    "original_sha256": "7b25643ffca26a0b25cdff5fba9afafe1dc8f9465d4c89d934d7df7f34172c7b",
+    "staged_sha256": "be211e038f6851121824de0713934222a7896d1e0df3a860d7f3760fc1074d2e",
+    "final_sha256": "be211e038f6851121824de0713934222a7896d1e0df3a860d7f3760fc1074d2e"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/utils/utils.py",
+    "original_sha256": "c69a7f50057ffbcd0060db6dd3528043f6ce06cbeda2ec35284820e2b6b6045a",
+    "staged_sha256": "007e177f95cee3638c893dcd04d0c71fd307514535f467421fdf1c1ace5280b5",
+    "final_sha256": "007e177f95cee3638c893dcd04d0c71fd307514535f467421fdf1c1ace5280b5"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/utils/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "staged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "final_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/gpt-fast/model.py",
+    "original_sha256": "3f2c3ecb554b71faee74df60a53e2dbd925c7de044e609826392dbcd66080a4d",
+    "staged_sha256": "eaaf8afc1b56fcf669e8e0b82a414012f12bb38484ec833756b6dbeba343edce",
+    "final_sha256": "eaaf8afc1b56fcf669e8e0b82a414012f12bb38484ec833756b6dbeba343edce"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/gpt-fast/generate.py",
+    "original_sha256": "5aea70402fb90a47ec5e65f819b3478f8e5d14841fa971044ca99cd2834888fb",
+    "staged_sha256": "bf48ea1179626e18b7059e83f6c19983b656e7d5b6ab8ac692a40b476a045a27",
+    "final_sha256": "bf48ea1179626e18b7059e83f6c19983b656e7d5b6ab8ac692a40b476a045a27"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/gpt-fast/tokenizer.py",
+    "original_sha256": "7ac49c30e61eede95a215ceabf966a7e3d7f0f724b5ca2d268d2db7c44c2a8c4",
+    "staged_sha256": "e6f44bf1fa9c26a162a90ea4a62fb78a4b46a2371f159e9f632626cad2213e52",
+    "final_sha256": "e6f44bf1fa9c26a162a90ea4a62fb78a4b46a2371f159e9f632626cad2213e52"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/gpt-fast/LICENSE",
+    "original_sha256": "9782ccaa2f6ca42b4a6995fabc86734526389ef5532bd24f63cbdefac05885c3",
+    "staged_sha256": "c069ffa5ca5a65a875e40531ae7b8bfbf1f67ccc6bd3c726146cbef2747f56bb",
+    "final_sha256": "c069ffa5ca5a65a875e40531ae7b8bfbf1f67ccc6bd3c726146cbef2747f56bb"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/runtime_source/scripts/benchmark_ours.py",
+    "original_sha256": "07a614694be42895e0519812df0614ae3b045f0bb413e50f93864e4da3f0fb0b",
+    "staged_sha256": "93d5bc2660a0814df64f953032962aa1130f9b417f3b27d02735321d616ab32b",
+    "final_sha256": "92fc80c3f80495268f398398187248c5b1e6e97af4d64a73137b7977c701d5e0"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/adaptive_transition.py",
+    "original_sha256": "56858d368e11244179f33280baf1e96d00ef1347683f38d49dc35fe2daff9f91",
+    "staged_sha256": "c7c810dd8df257d220bd68bc32e1c2d0183222385c7b8821f4e1fb65481fa0dc",
+    "final_sha256": "c7c810dd8df257d220bd68bc32e1c2d0183222385c7b8821f4e1fb65481fa0dc"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/transition_lifetime.py",
+    "original_sha256": "19c498df16445048a3e86abffa8d1196d2d8b340b5c2072bc3493b8fa0e2e03f",
+    "staged_sha256": "463928123cddea129ad383c2e31ea24917fbd91e69eac4245a7cd3e2b6ff7df9",
+    "final_sha256": "463928123cddea129ad383c2e31ea24917fbd91e69eac4245a7cd3e2b6ff7df9"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/block_sparse_b128_gemv.cu",
+    "original_sha256": "d31a434dea16ff0ab151feab351ea1280e3fb890e4907f152e3979519c64f803",
+    "staged_sha256": "44596e595ae4fc785aee08f5c4f9e6e302a89540d4f9bef6ec1ae89a530a8436",
+    "final_sha256": "44596e595ae4fc785aee08f5c4f9e6e302a89540d4f9bef6ec1ae89a530a8436"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/qwen_runtime.py",
+    "original_sha256": "30a97891a6b42741935eb2fc757c0bb2289c463186eb389ac1e9f6e037b0753a",
+    "staged_sha256": "afdc0fad730de1adc8a79b63b5a407506216ed9ea28981e758324f257ab7181d",
+    "final_sha256": "afdc0fad730de1adc8a79b63b5a407506216ed9ea28981e758324f257ab7181d"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/worker.py",
+    "original_sha256": "6e1dc8be2b381623e711a533f5fe806623ffa8352a997075620a5867f3d1000d",
+    "staged_sha256": "ca4c4e51dcfe213e687f0237292556a48ae502df4880849fe706157e40c2b80c",
+    "final_sha256": "4dad9b8a43291c5c471980cc951e27722d6cc8fc409ad80dd576581b3ab00fa4"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/calibrate.py",
+    "original_sha256": "da9eed3dd1e7ba2c66a9b232b5f3c2b885bf0866af6efc732d09088619eb29e8",
+    "staged_sha256": "05da9c4b90bf8cc06b64534a58a4d9bc29d5efbb2033e8538d1487c4ede2a6f8",
+    "final_sha256": "b742193a322a716723eb100a10ab4a99bab505a5c4837a8c708bed9572ddda45"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/qwen3/calibrate_centers.py",
+    "original_sha256": "019fa24ed7ee4837b8d2bb0c9b02dcc6e42ffc014b4bb495c55e34fb72c2c57d",
+    "staged_sha256": "255ea32de81088d053edbe4db744c6b9cfc4a2d3349db6ee69606520b02b0f07",
+    "final_sha256": "f01108106d0458dc02c765f1be120c2592d789281cc729812f85c9f5407743e3"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/support.py",
+    "original_sha256": "3aaaad8b6c61d9d588cc004bf8f845cfa89a429f1280a2b9f2863e4187e48324",
+    "staged_sha256": "29371748db469e003e87dcf16736d5a76e582b4b9348ab06dde87e26daf003de",
+    "final_sha256": "14449b0c914ccdb5b6c6256b91ad5db7e18cedd12f3e14329dea2e0eb74f560d"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/run_method.py",
+    "original_sha256": "9c9a706cd5c0a3e5489947aa91a75080447f6571de287519ef01dfa2d83fce35",
+    "staged_sha256": "8843ee94e1ccd757afe8c2dc6849cc078f5ab7101c84bc54e4d1f09687415359",
+    "final_sha256": "5e8c3ece38994e0ddd3f69c2656fd3ff580f0cb0818c2133c626016a9af9df75"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/geometry/ops.py",
+    "original_sha256": "8a7bfae1eb99c214a284ec0e749b0c93ecb4c4765eaabac186ba4a2970dc4b38",
+    "staged_sha256": "f836e98088d8afdbfe5f08d8e7dbc68e7c51e8d14b0d3fe4cdfe920c00f53b5e",
+    "final_sha256": "7a8eada00d61bc88382395c990b1d571b3ba4b5d80e0191ea7778a3a9616f8a9"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/geometry/geometry.cu",
+    "original_sha256": "b8a9fac8ef9cb87c4f905b8a5886e24eb465a6fcdc8ae19c7481ef325cbbbc59",
+    "staged_sha256": "d532bebb0c878b03a748d6739b94fc22bd82f36a431b5e0f509845806bcbfdbc",
+    "final_sha256": "d532bebb0c878b03a748d6739b94fc22bd82f36a431b5e0f509845806bcbfdbc"
+  },
+  {
+    "path": "src/roshift/speedup/_engine/optimize_layerwise_k_budget_20260803.py",
+    "original_sha256": "a3c9be257398498d97dcae9d3d331cdc6c639cf665e450a886db4b0dc67acbc4",
+    "staged_sha256": "14ad01c190d617f6caa2c7058e01b975a9f0f6ef65f85ffe717d423f2638e0ad",
+    "final_sha256": "f4597449e14b9a89abae1fd73dcdbc6561fa81dda3d1f05e69ce78958f58a840"
+  },
+  {
+    "path": "third_party/gpt_fast_LICENSE.txt",
+    "original_sha256": "9782ccaa2f6ca42b4a6995fabc86734526389ef5532bd24f63cbdefac05885c3",
+    "staged_sha256": "c069ffa5ca5a65a875e40531ae7b8bfbf1f67ccc6bd3c726146cbef2747f56bb",
+    "final_sha256": "c069ffa5ca5a65a875e40531ae7b8bfbf1f67ccc6bd3c726146cbef2747f56bb"
+  }
+]

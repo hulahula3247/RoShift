@@ -1,0 +1,68 @@
+[
+  {
+    "file": "transformers_main_LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/huggingface/transformers/main/LICENSE",
+    "sha256": "77fd4710def9ec3c0f6225800e0235f15a425abd4a8b03559127fcd782612049",
+    "note": "License snapshot; a main-branch URL does not identify the exact vendored code revision."
+  },
+  {
+    "file": "lm_eval_LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/v0.4.11/LICENSE.md",
+    "sha256": "a806e42547620dffbc2ec0333322c8b3523b4af11e059be14ef81aa5b1ae021f",
+    "note": "License snapshot; a main-branch URL does not identify the exact vendored code revision."
+  },
+  {
+    "file": "nltk_LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/nltk/nltk/develop/LICENSE.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "note": "License snapshot; a main-branch URL does not identify the exact vendored code revision."
+  },
+  {
+    "file": "bbh_LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/suzgunmirac/BIG-Bench-Hard/main/LICENSE",
+    "sha256": "4ef2ff4295d26ab6211235039c132697408cec5391d2c091b41e983771978db8",
+    "note": "License snapshot; a main-branch URL does not identify the exact vendored code revision."
+  },
+  {
+    "file": "gsm8k_LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/openai/grade-school-math/master/LICENSE",
+    "sha256": "86bbb73e855821d7c401912fd4bf82e34313e6e3b6fd6f909f2b6cc9e209a53b",
+    "note": "License snapshot; a main-branch URL does not identify the exact vendored code revision."
+  },
+  {
+    "file": "alpaca_DATA_LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/tatsu-lab/stanford_alpaca/main/DATA_LICENSE",
+    "sha256": "3711f963c05d0be80d53e5923308a6dee31b203da23435c9cfb7c7b6e4dd5e19",
+    "note": "License snapshot; a main-branch URL does not identify the exact vendored code revision."
+  },
+  {
+    "file": "codealpaca_DATA_LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/sahil280114/codealpaca/master/DATA_LICENSE",
+    "sha256": "3711f963c05d0be80d53e5923308a6dee31b203da23435c9cfb7c7b6e4dd5e19",
+    "note": "License snapshot; a main-branch URL does not identify the exact vendored code revision."
+  },
+  {
+    "file": "MATH_LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/hendrycks/math/main/LICENSE",
+    "sha256": "8f6401fb0b1fbfcac17aac8d61e4e1b0d2de9aa190d8aa655fedc5fd783b2ace",
+    "note": "License snapshot; a main-branch URL does not identify the exact vendored code revision."
+  },
+  {
+    "file": "MMLU_LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/hendrycks/test/master/LICENSE",
+    "sha256": "5d841b9eee8bf0d721359b79fbae956a8b426d3139bfefee32149c7d4f2a1a9c",
+    "note": "License snapshot; a main-branch URL does not identify the exact vendored code revision."
+  },
+  {
+    "file": "FLAN_LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/google-research/FLAN/main/LICENSE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "note": "License snapshot; a main-branch URL does not identify the exact vendored code revision."
+  },
+  {
+    "file": "CC-BY-4.0.txt",
+    "url": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+    "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+    "note": "License snapshot; a main-branch URL does not identify the exact vendored code revision."
+  }
+]

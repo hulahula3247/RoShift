@@ -1,0 +1,1743 @@
+{
+  "protocol": "larosa_mac_v1",
+  "model_target_sparsity_percent": 60,
+  "candidate": "a1_22_a3_19",
+  "alpha": [
+    1.1,
+    0.8714285714285714,
+    0.95,
+    1.1
+  ],
+  "group_order": [
+    "attn_h1",
+    "attn_h2",
+    "mlp_h1",
+    "mlp_h2"
+  ],
+  "projection_sparsity_fraction": {
+    "q": 0.66,
+    "k": 0.66,
+    "v": 0.66,
+    "o": 0.5228571428571429,
+    "gate": 0.57,
+    "up": 0.57,
+    "down": 0.66
+  },
+  "continuous_budget": {
+    "dense_total_mac": 6525288448.0,
+    "target_sparse_mac": 2610115379.2000003,
+    "achieved_sparse_mac": 2610115379.2,
+    "target_sparsity_fraction": 0.6,
+    "error_abs": 4.76837158203125e-07,
+    "per_block": [
+      {
+        "layer": 0,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 11744051.200000001,
+        "achieved_sparse_mac": 11744051.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 1.862645149230957e-09
+      },
+      {
+        "layer": 0,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 81474355.2,
+        "achieved_sparse_mac": 81474355.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 1,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 11744051.200000001,
+        "achieved_sparse_mac": 11744051.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 1.862645149230957e-09
+      },
+      {
+        "layer": 1,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 81474355.2,
+        "achieved_sparse_mac": 81474355.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 2,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 11744051.200000001,
+        "achieved_sparse_mac": 11744051.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 1.862645149230957e-09
+      },
+      {
+        "layer": 2,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 81474355.2,
+        "achieved_sparse_mac": 81474355.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 3,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 11744051.200000001,
+        "achieved_sparse_mac": 11744051.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 1.862645149230957e-09
+      },
+      {
+        "layer": 3,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 81474355.2,
+        "achieved_sparse_mac": 81474355.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 4,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 11744051.200000001,
+        "achieved_sparse_mac": 11744051.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 1.862645149230957e-09
+      },
+      {
+        "layer": 4,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 81474355.2,
+        "achieved_sparse_mac": 81474355.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 5,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 11744051.200000001,
+        "achieved_sparse_mac": 11744051.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 1.862645149230957e-09
+      },
+      {
+        "layer": 5,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 81474355.2,
+        "achieved_sparse_mac": 81474355.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 6,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 11744051.200000001,
+        "achieved_sparse_mac": 11744051.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 1.862645149230957e-09
+      },
+      {
+        "layer": 6,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 81474355.2,
+        "achieved_sparse_mac": 81474355.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 7,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 11744051.200000001,
+        "achieved_sparse_mac": 11744051.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 1.862645149230957e-09
+      },
+      {
+        "layer": 7,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 81474355.2,
+        "achieved_sparse_mac": 81474355.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 8,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 11744051.200000001,
+        "achieved_sparse_mac": 11744051.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 1.862645149230957e-09
+      },
+      {
+        "layer": 8,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 81474355.2,
+        "achieved_sparse_mac": 81474355.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 9,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 11744051.200000001,
+        "achieved_sparse_mac": 11744051.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 1.862645149230957e-09
+      },
+      {
+        "layer": 9,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 81474355.2,
+        "achieved_sparse_mac": 81474355.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 10,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 11744051.200000001,
+        "achieved_sparse_mac": 11744051.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 1.862645149230957e-09
+      },
+      {
+        "layer": 10,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 81474355.2,
+        "achieved_sparse_mac": 81474355.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 11,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 11744051.200000001,
+        "achieved_sparse_mac": 11744051.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 1.862645149230957e-09
+      },
+      {
+        "layer": 11,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 81474355.2,
+        "achieved_sparse_mac": 81474355.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 12,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 11744051.200000001,
+        "achieved_sparse_mac": 11744051.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 1.862645149230957e-09
+      },
+      {
+        "layer": 12,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 81474355.2,
+        "achieved_sparse_mac": 81474355.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 13,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 11744051.200000001,
+        "achieved_sparse_mac": 11744051.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 1.862645149230957e-09
+      },
+      {
+        "layer": 13,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 81474355.2,
+        "achieved_sparse_mac": 81474355.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 14,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 11744051.200000001,
+        "achieved_sparse_mac": 11744051.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 1.862645149230957e-09
+      },
+      {
+        "layer": 14,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 81474355.2,
+        "achieved_sparse_mac": 81474355.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 15,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 11744051.200000001,
+        "achieved_sparse_mac": 11744051.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 1.862645149230957e-09
+      },
+      {
+        "layer": 15,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 81474355.2,
+        "achieved_sparse_mac": 81474355.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 16,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 11744051.200000001,
+        "achieved_sparse_mac": 11744051.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 1.862645149230957e-09
+      },
+      {
+        "layer": 16,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 81474355.2,
+        "achieved_sparse_mac": 81474355.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 17,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 11744051.200000001,
+        "achieved_sparse_mac": 11744051.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 1.862645149230957e-09
+      },
+      {
+        "layer": 17,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 81474355.2,
+        "achieved_sparse_mac": 81474355.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 18,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 11744051.200000001,
+        "achieved_sparse_mac": 11744051.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 1.862645149230957e-09
+      },
+      {
+        "layer": 18,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 81474355.2,
+        "achieved_sparse_mac": 81474355.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 19,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 11744051.200000001,
+        "achieved_sparse_mac": 11744051.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 1.862645149230957e-09
+      },
+      {
+        "layer": 19,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 81474355.2,
+        "achieved_sparse_mac": 81474355.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 20,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 11744051.200000001,
+        "achieved_sparse_mac": 11744051.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 1.862645149230957e-09
+      },
+      {
+        "layer": 20,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 81474355.2,
+        "achieved_sparse_mac": 81474355.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 21,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 11744051.200000001,
+        "achieved_sparse_mac": 11744051.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 1.862645149230957e-09
+      },
+      {
+        "layer": 21,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 81474355.2,
+        "achieved_sparse_mac": 81474355.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 22,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 11744051.200000001,
+        "achieved_sparse_mac": 11744051.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 1.862645149230957e-09
+      },
+      {
+        "layer": 22,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 81474355.2,
+        "achieved_sparse_mac": 81474355.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 23,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 11744051.200000001,
+        "achieved_sparse_mac": 11744051.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 1.862645149230957e-09
+      },
+      {
+        "layer": 23,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 81474355.2,
+        "achieved_sparse_mac": 81474355.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 24,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 11744051.200000001,
+        "achieved_sparse_mac": 11744051.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 1.862645149230957e-09
+      },
+      {
+        "layer": 24,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 81474355.2,
+        "achieved_sparse_mac": 81474355.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 25,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 11744051.200000001,
+        "achieved_sparse_mac": 11744051.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 1.862645149230957e-09
+      },
+      {
+        "layer": 25,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 81474355.2,
+        "achieved_sparse_mac": 81474355.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 26,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 11744051.200000001,
+        "achieved_sparse_mac": 11744051.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 1.862645149230957e-09
+      },
+      {
+        "layer": 26,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 81474355.2,
+        "achieved_sparse_mac": 81474355.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 0.0
+      },
+      {
+        "layer": 27,
+        "kind": "attention",
+        "projection_shapes": {
+          "q": {
+            "input_width": 3584,
+            "output_width": 3584
+          },
+          "k": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "v": {
+            "input_width": 3584,
+            "output_width": 512
+          },
+          "o": {
+            "input_width": 3584,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "q": 12845056,
+          "k": 1835008,
+          "v": 1835008,
+          "o": 12845056
+        },
+        "dense_mac": 29360128.0,
+        "target_sparse_mac": 11744051.200000001,
+        "achieved_sparse_mac": 11744051.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 1.862645149230957e-09
+      },
+      {
+        "layer": 27,
+        "kind": "mlp",
+        "projection_shapes": {
+          "gate": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "up": {
+            "input_width": 3584,
+            "output_width": 18944
+          },
+          "down": {
+            "input_width": 18944,
+            "output_width": 3584
+          }
+        },
+        "projection_dense_mac": {
+          "gate": 67895296,
+          "up": 67895296,
+          "down": 67895296
+        },
+        "dense_mac": 203685888.0,
+        "target_sparse_mac": 81474355.2,
+        "achieved_sparse_mac": 81474355.2,
+        "target_sparsity_fraction": 0.6,
+        "error_abs": 0.0
+      }
+    ]
+  }
+}

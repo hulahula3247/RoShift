@@ -1,0 +1,13 @@
+{
+  "MMLU": {"task": "mmlu", "kind": "likelihood", "shots": 5, "count": 14042, "metric": "acc"},
+  "BoolQ": {"task": "boolq", "kind": "likelihood", "shots": 0, "count": 3270, "metric": "acc"},
+  "PIQA": {"task": "piqa", "kind": "likelihood", "shots": 0, "count": 1838, "metric": "acc_norm"},
+  "ARC-E": {"task": "arc_easy", "kind": "likelihood", "shots": 0, "count": 2376, "metric": "acc_norm"},
+  "ARC-C": {"task": "arc_challenge", "kind": "likelihood", "shots": 25, "count": 1172, "metric": "acc_norm"},
+  "WinoGrande": {"task": "winogrande", "kind": "likelihood", "shots": 5, "count": 1267, "metric": "acc"},
+  "CommonsenseQA": {"task": "commonsense_qa", "kind": "likelihood", "shots": 0, "count": 1221, "metric": "acc"},
+  "MBPP": {"task": "mbpp", "kind": "generation", "shots": 3, "count": 500, "metric": "pass@1", "max_new_tokens": 256, "sandbox_required": true},
+  "GSM8K": {"task": "gsm8k", "kind": "generation", "shots": 5, "count": 1319, "metric": "exact_match_strict", "max_new_tokens": 256},
+  "BBH": {"task": "bbh_cot_fewshot", "kind": "generation", "shots": 3, "count": 6511, "subjects": 27, "metric": "original_answer_filter", "max_new_tokens": 1024},
+  "MATH-500": {"task": "minerva_math500", "kind": "generation", "shots": 4, "count": 500, "metric": "math_verify", "max_new_tokens": 256}
+}

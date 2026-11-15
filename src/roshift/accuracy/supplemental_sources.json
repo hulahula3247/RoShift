@@ -1,0 +1,14 @@
+{
+  "latency_repos_20260714/TEAL_ours/scripts/optimize_layerwise_k_budget_20260803.py": "f82b8de0cba0ceb9a1c54da4785ef0c84b1278e9a16e8a4d061d879650a9bdf2",
+  "vendor/lm_eval/tasks/bbh/cot_fewshot/_cot_fewshot_template_yaml": "7fb84f2c423dc4486103fc8209095862aa75bb6848432f27cc8c705d440e62b9",
+  "vendor/lm_eval/tasks/bbh/cot_zeroshot/_cot_zeroshot_template_yaml": "a9daae2d11fe68d8391db5e39400de921ac6fc693f08fdaaf63bccb07f6c34c8",
+  "vendor/lm_eval/tasks/bbh/fewshot/_fewshot_template_yaml": "a44f170af1614863116acc385de96f95c56c3c44c495b13a67bcfa7728a3ce84",
+  "vendor/lm_eval/tasks/bbh/zeroshot/_zeroshot_template_yaml": "c851b8afb4beff210803ba3fd4c987b3bdbe6a14233297b299c505a247a0ab03",
+  "vendor/lm_eval/tasks/mmlu/continuation/_continuation_template_yaml": "136c84deb7a6d491034c1f33a7b249d94266116096f1998d5d75b3bae64819fc",
+  "vendor/lm_eval/tasks/mmlu/default/_default_template_yaml": "a0997593bf94f52cc87eb1f9b621f52613a6c60f1fb48775b0926104fd385122",
+  "vendor/lm_eval/tasks/mmlu/flan_cot_fewshot/_mmlu_flan_cot_fewshot_template_yaml": "41ac9b9aed62737cc0d616c3594afe1fc5e0e886a84ea883e7d375e2fa71da53",
+  "vendor/lm_eval/tasks/mmlu/flan_cot_zeroshot/_mmlu_flan_cot_zeroshot_template_yaml": "e51df99abbebe79ace4064d695a51d53fc9e4f67c7103b5ca313a7146fdae252",
+  "vendor/lm_eval/tasks/mmlu/flan_n_shot/generative/_mmlu_flan_generative_template_yaml": "09ca8f0fe2d60969b193d53c1136bc694f8caf8dae572f313daebab096800caa",
+  "vendor/lm_eval/tasks/mmlu/flan_n_shot/loglikelihood/_mmlu_flan_loglikelihood_template_yaml": "1f97d2569633ce19e8a06c59a11aacc62fa1785309c8791b655a7233ccc7fb04",
+  "vendor/lm_eval/tasks/mmlu/generative/_default_template_yaml": "40b89ace24b5509147cd87cf39b983aeff2310ff8887fb138839c48ebdf8d535"
+}

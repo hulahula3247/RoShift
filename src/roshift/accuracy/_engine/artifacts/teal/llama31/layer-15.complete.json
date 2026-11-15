@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "seconds": 96.30390183700365,
+  "weights": {
+    "q": 1.0,
+    "k": 0.25,
+    "v": 0.25,
+    "o": 1.0,
+    "gate": 3.5,
+    "up": 3.5,
+    "down": 3.5
+  },
+  "source_sha256": "28c20f1a0e5bf7771fcfb4f03cfecd03127761a125aa38fee9f80c2ec0b02ffd"
+}

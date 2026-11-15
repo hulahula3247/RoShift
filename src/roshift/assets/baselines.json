@@ -1,0 +1,30 @@
+{
+  "dense": {
+    "transformer": "dense",
+    "lm_head": "dense"
+  },
+  "teal": {
+    "upstream_commit": "fb7373c93ac3594817c9ee64d4e08b47430a1822",
+    "allocation": "official histogram/MSE-greedy; never WAS/Grid-CD",
+    "accuracy_calibration": "fixed Alpaca/released histograms",
+    "accuracy_thresholds": "fixed across benchmarks",
+    "speed_thresholds": "dataset-specific target-matched"
+  },
+  "larosa": {
+    "upstream_commit": "3d32ae427eec57166ea67f3018cd4568be84496f",
+    "allocation": "official four-group MAC-budget version",
+    "rotation_inference": "FP16 instead of FP64",
+    "do_not_cast": [
+      "integer indices",
+      "offline covariance/eigendecomposition",
+      "ordinary FP32 reductions"
+    ],
+    "calibration": "frozen WikiText token IDs from server cohort"
+  },
+  "common_scope": {
+    "likelihood": "sparsify every input position",
+    "generation_prefill": "dense",
+    "generation_decode": "sparse",
+    "baseline_lm_head": "dense"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "repo_id": "Qwen/Qwen3-8B-Base",
+  "original_path": "/repro/data\\hf_local\\Qwen3-8B-Base",
+  "config_sha256": "3bd01d7ad7a2e203ecbbe84e24087a51c6d2a108ee4bcc42d0016bf49564983a",
+  "weights": [
+    {
+      "path": "model-00001-of-00005.safetensors",
+      "bytes": 3996250744,
+      "sha256": "9983f1b9ef2f60e7c3730d9bc11ada914e6ec630639b5b020a89bd158cd0446b"
+    },
+    {
+      "path": "model-00002-of-00005.safetensors",
+      "bytes": 3993160032,
+      "sha256": "9aa12339835bf7a093d3d0b0a0d2d77f8538301cfc7f8e7ec7a585858ebf7a1f"
+    },
+    {
+      "path": "model-00003-of-00005.safetensors",
+      "bytes": 3959604768,
+      "sha256": "c7dd5a191c8da555def0714550375b3c0117751add408fcdda0c2a79ac0186bc"
+    },
+    {
+      "path": "model-00004-of-00005.safetensors",
+      "bytes": 3187841392,
+      "sha256": "ad8b708792105133e03fe19e2d56c89c709f677f01285f8b3ede8947d59fd9fe"
+    },
+    {
+      "path": "model-00005-of-00005.safetensors",
+      "bytes": 1244659840,
+      "sha256": "fbf24915d47ea030bb68ab0b9488f4515a907185baa6dc26837c9c3f2326a550"
+    }
+  ]
+}
