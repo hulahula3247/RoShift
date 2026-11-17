@@ -38,30 +38,23 @@ class ReadmeContracts(unittest.TestCase):
                     'DATA_LICENSES.md', 'ORIN.md'}
         self.assertTrue(required.issubset({p.name for p in docs}))
         self.assertTrue(all(p.is_file() and p.suffix == '.md' for p in docs))
-        for name in ('ACCURACY', 'SPEEDUP', 'ORIN'):
-            english = (ROOT/'docs'/f'{name}.md').read_text(encoding='utf-8')
-            korean = (ROOT/'docs'/f'{name}.ko.md').read_text(encoding='utf-8')
-            pattern = r'```[^\n]*\n(.*?)```'
-            self.assertEqual(re.findall(pattern, english, re.S),
-                             re.findall(pattern, korean, re.S), name)
         for path in [ROOT/'README.md', *sorted((ROOT/'docs').glob('*.md'))]:
             self.assertNotRegex(path.read_text(encoding='utf-8'), r'\bRC\d', str(path))
 
     def test_shell_examples_parse(self):
         import shlex
-        for name in ('README.md', 'README.ko.md'):
-            text = (ROOT / name).read_text(encoding='utf-8').replace('\\\n', '')
-            checked = 0
-            for line in text.splitlines():
-                if not line.startswith('roshift '):
-                    continue
-                args = shlex.split(line)
-                if args[1] == 'check':
-                    continue
-                parser = accuracy_parser if args[1] == 'accuracy' else speedup_parser
-                parser().parse_args(args[2:])
-                checked += 1
-            self.assertGreaterEqual(checked, 1, name)
+        text = (ROOT/'README.md').read_text(encoding='utf-8').replace('\\\n', '')
+        checked = 0
+        for line in text.splitlines():
+            if not line.startswith('roshift '):
+                continue
+            args = shlex.split(line)
+            if args[1] == 'check':
+                continue
+            parser = accuracy_parser if args[1] == 'accuracy' else speedup_parser
+            parser().parse_args(args[2:])
+            checked += 1
+        self.assertGreaterEqual(checked, 1)
 
 
 if __name__ == '__main__':

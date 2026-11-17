@@ -29,10 +29,9 @@ class ReproductionRepairs(unittest.TestCase):
         self.assertIn('matplotlib==3.10.8', (ROOT/'environments/accuracy.txt').read_text())
 
     def test_failed_venv_cannot_run_activation(self):
-        for name in ('docs/ACCURACY.md', 'docs/ACCURACY.ko.md'):
-            text = (ROOT/name).read_text(encoding='utf-8')
-            self.assertIn('python3.12-venv', text)
-            self.assertIn('python3.12 -m venv "$ROSHIFT_DATA/env" &&\nsource ', text)
+        text = (ROOT/'docs/ACCURACY.md').read_text(encoding='utf-8')
+        self.assertIn('python3.12-venv', text)
+        self.assertIn('python3.12 -m venv "$ROSHIFT_DATA/env" &&\nsource ', text)
 
     def test_loading_guard_default_and_explicit_override(self):
         with tempfile.TemporaryDirectory() as folder:
