@@ -3,7 +3,7 @@
 
 **Geunsoo Song · Jiwon Seo · Hoeseok Yang · Youngmin Yi**
 
-[Quick Start](#quick-start) · [Accuracy](docs/ACCURACY.md) · [Speedup](docs/SPEEDUP.md)
+[Quick Start](#quick-start) · [Paper (arXiv)](https://arxiv.org/abs/2611.20549) · [Accuracy](docs/ACCURACY.md) · [Speedup](docs/SPEEDUP.md)
 
 ![RoShift overview](assets/roshift_overview.png)
 
@@ -48,7 +48,11 @@ If you find our work or code useful, please consider citing our paper.
 @misc{song2026roshift,
   title={RoShift: Lazy Shift and Weight-aware Rotation for Activation Sparsity in LLM Inference},
   author={Song, Geunsoo and Seo, Jiwon and Yang, Hoeseok and Yi, Youngmin},
-  year={2026}
+  year={2026},
+  eprint={2611.20549},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  url={https://arxiv.org/abs/2611.20549}
 }
 ```
 
