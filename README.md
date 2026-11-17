@@ -3,7 +3,7 @@
 
 **Geunsoo Song · Jiwon Seo · Hoeseok Yang · Youngmin Yi**
 
-[Quick Start](#quick-start) · [Paper (arXiv)](https://arxiv.org/abs/2611.20549) · [Accuracy](docs/ACCURACY.md) · [Speedup](docs/SPEEDUP.md)
+[Paper (arXiv)](https://arxiv.org/abs/2611.20549) · [Quick Start](#quick-start) · [Accuracy](docs/ACCURACY.md) · [Speedup](docs/SPEEDUP.md)
 
 ![RoShift overview](assets/roshift_overview.png)
 
